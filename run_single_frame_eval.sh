@@ -9,11 +9,14 @@ set -euo pipefail
 # Override common options with environment variables:
 #   CROP_SCALE=1.0 ./run_single_frame_eval.sh
 #   BASE_URL=http://10.198.106.42:8011/v1 MODEL=Qwen ./run_single_frame_eval.sh
-#   JSONL_PATH=./test_dataset/test.jsonl IMAGE_DIR=./test ./run_single_frame_eval.sh
+#   JSONL_PATH=./test_dataset/test_filtered.jsonl IMAGE_DIR=./test ./run_single_frame_eval.sh
+#   WORKERS=2 ./run_single_frame_eval.sh
+#   SAVE_AUDIT_IMAGES=1 ./run_single_frame_eval.sh
 #
 # Pass any supported module argument after the script; later argparse values win:
 #   ./run_single_frame_eval.sh --crop-scale 1.0
 #   ./run_single_frame_eval.sh --output-dir ./eval_outputs/single_frame_debug
+#   ./run_single_frame_eval.sh --save-audit-images
 #   ./run_single_frame_eval.sh --help
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
@@ -21,7 +24,7 @@ cd "$SCRIPT_DIR"
 
 export UV_DEFAULT_INDEX="${UV_DEFAULT_INDEX:-https://pypi.tuna.tsinghua.edu.cn/simple}"
 
-JSONL_PATH="${JSONL_PATH:-./test_dataset/test.jsonl}"
+JSONL_PATH="${JSONL_PATH:-./test_dataset/test_filtered.jsonl}"
 IMAGE_DIR="${IMAGE_DIR:-./test}"
 OUTPUT_DIR="${OUTPUT_DIR:-./eval_outputs/single_frame}"
 
@@ -37,6 +40,16 @@ CROP_SCALE="${CROP_SCALE:-1.5}"
 FRAME_WIDTH="${FRAME_WIDTH:-640}"
 FRAME_HEIGHT="${FRAME_HEIGHT:-480}"
 JPEG_QUALITY="${JPEG_QUALITY:-80}"
+WORKERS="${WORKERS:-4}"
+SAVE_AUDIT_IMAGES="${SAVE_AUDIT_IMAGES:-0}"
+
+EXTRA_ARGS=()
+SAVE_AUDIT_IMAGES_NORMALIZED="$(printf '%s' "$SAVE_AUDIT_IMAGES" | tr '[:upper:]' '[:lower:]')"
+case "$SAVE_AUDIT_IMAGES_NORMALIZED" in
+    1|true|yes|on)
+        EXTRA_ARGS+=(--save-audit-images)
+        ;;
+esac
 
 uv run python -m person_detect.single_frame \
     --jsonl "$JSONL_PATH" \
@@ -52,4 +65,6 @@ uv run python -m person_detect.single_frame \
     --frame-width "$FRAME_WIDTH" \
     --frame-height "$FRAME_HEIGHT" \
     --jpeg-quality "$JPEG_QUALITY" \
+    --workers "$WORKERS" \
+    "${EXTRA_ARGS[@]}" \
     "$@"

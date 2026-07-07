@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import base64
 import json
 import math
 import re
@@ -16,27 +17,30 @@ from person_detect.behavior import (
     DEFAULT_BEHAVIOR_FRAME_WIDTH,
     DEFAULT_BEHAVIOR_JPEG_QUALITY,
     DEFAULT_BEHAVIOR_MODEL,
-    encode_frame_to_data_url,
 )
 from person_detect.boxes import Box, expand_box
 from person_detect.detector import PersonDetection
 from person_detect.single_frame.prompts import BEHAVIOR_PROMPT, TARGET_SELECTION_PROMPT
 
-NORMAL_LABEL = "无任何输出"
-BEHAVIOR_PRIORITY = [
-    "完全离席",
+NORMAL_LABEL = "无异常"
+LEGACY_NORMAL_LABEL = "无任何输出"
+ABSENT_LABEL = "完全离席"
+BEHAVIOR_LABELS = (
     "趴桌懈怠",
     "摆弄玩具",
     "摆弄电子设备",
-    "遮挡面部",
-    "仰头",
-    "东张西望",
     "双手托腮",
     "揉眼睛",
     "打哈欠",
-    "举手行为",
-]
-KNOWN_LABELS = {NORMAL_LABEL, *BEHAVIOR_PRIORITY}
+    NORMAL_LABEL,
+)
+TARGET_LABELS = (*BEHAVIOR_LABELS, ABSENT_LABEL)
+BEHAVIOR_LABEL_SET = set(BEHAVIOR_LABELS)
+TARGET_LABEL_SET = set(TARGET_LABELS)
+DEFAULT_BEHAVIOR_RESULT: dict[str, Any] = {
+    "evidence": [],
+    "behavior_name": NORMAL_LABEL,
+}
 
 
 class DetectorLike(Protocol):
@@ -66,9 +70,13 @@ class SingleFrameResult:
     selected_box_id: int | None = None
     selected_box: Box | None = None
     selection_raw: str = ""
+    selection_source: str = ""
     selection_fallback: bool = False
     behavior_raw: str = ""
+    behavior_result: dict[str, Any] | None = None
+    behavior_parse_ok: bool = False
     predicted_label: str = NORMAL_LABEL
+    audit_images: dict[str, str] | None = None
     error: str = ""
 
     def to_record(self) -> dict[str, Any]:
@@ -76,16 +84,56 @@ class SingleFrameResult:
 
         return {
             "image_name": self.image_name,
+            "predicted_label": self.predicted_label,
             "num_boxes": self.num_boxes,
             "boxes": [list(box) for box in (self.boxes or [])],
             "selected_box_id": self.selected_box_id,
             "selected_box": list(self.selected_box) if self.selected_box else None,
             "selection_raw": self.selection_raw,
+            "selection_source": self.selection_source,
             "selection_fallback": self.selection_fallback,
             "behavior_raw": self.behavior_raw,
-            "predicted_label": self.predicted_label,
+            "behavior_result": self.behavior_result or dict(DEFAULT_BEHAVIOR_RESULT),
+            "behavior_parse_ok": self.behavior_parse_ok,
+            "audit_images": self.audit_images or {},
             "error": self.error,
         }
+
+
+@dataclass(frozen=True)
+class SingleFrameAudit:
+    """Optional per-sample image audit writer for the single-frame experiment."""
+
+    run_dir: Path
+    sample_index: int
+    image_name: str
+    enabled: bool = False
+    jpeg_quality: int = DEFAULT_BEHAVIOR_JPEG_QUALITY
+
+    def save_image(self, filename: str, frame) -> str:
+        """Save an audit image and return its path relative to the run directory."""
+
+        if not self.enabled:
+            return ""
+
+        import cv2
+
+        sample_dir = (
+            self.run_dir
+            / "audit"
+            / "samples"
+            / f"{self.sample_index:05d}_{_safe_stem(self.image_name)}"
+        )
+        sample_dir.mkdir(parents=True, exist_ok=True)
+        path = sample_dir / filename
+        ok = cv2.imwrite(
+            str(path),
+            frame,
+            [int(cv2.IMWRITE_JPEG_QUALITY), self.jpeg_quality],
+        )
+        if not ok:
+            raise RuntimeError(f"无法保存单帧审计图片: {path}")
+        return path.relative_to(self.run_dir).as_posix()
 
 
 class OpenAICompatibleVLM:
@@ -170,7 +218,13 @@ class SingleFramePipeline:
         self.frame_height = frame_height
         self.jpeg_quality = jpeg_quality
 
-    def process_image(self, image_path: str | Path) -> SingleFrameResult:
+    def process_image(
+        self,
+        image_path: str | Path,
+        *,
+        sample_index: int = 0,
+        audit: SingleFrameAudit | None = None,
+    ) -> SingleFrameResult:
         """Read an image from disk and process it."""
 
         import cv2
@@ -181,12 +235,31 @@ class SingleFramePipeline:
             return SingleFrameResult(
                 image_name=image_path.name,
                 predicted_label=NORMAL_LABEL,
+                behavior_result=dict(DEFAULT_BEHAVIOR_RESULT),
                 error=f"无法读取图片: {image_path}",
             )
-        return self.process_frame(frame, image_name=image_path.name)
+        if audit is None:
+            audit = SingleFrameAudit(
+                run_dir=Path("."),
+                sample_index=sample_index,
+                image_name=image_path.name,
+                enabled=False,
+                jpeg_quality=self.jpeg_quality,
+            )
+        return self.process_frame(frame, image_name=image_path.name, audit=audit)
 
-    def process_frame(self, frame, *, image_name: str = "") -> SingleFrameResult:
+    def process_frame(
+        self,
+        frame,
+        *,
+        image_name: str = "",
+        audit: SingleFrameAudit | None = None,
+    ) -> SingleFrameResult:
         """Process one BGR frame."""
+
+        audit_images: dict[str, str] = {}
+        if audit is not None:
+            _maybe_store(audit_images, "detector_input", audit.save_image("detector_input.jpg", frame))
 
         detections = self.detector.detect(frame)
         boxes = [detection.box for detection in detections]
@@ -195,37 +268,71 @@ class SingleFramePipeline:
                 image_name=image_name,
                 num_boxes=0,
                 boxes=[],
-                predicted_label="完全离席",
+                predicted_label=ABSENT_LABEL,
+                behavior_result={"evidence": [], "behavior_name": ABSENT_LABEL},
+                behavior_parse_ok=True,
+                audit_images=audit_images,
             )
 
         selection_raw = ""
+        selection_source = ""
         selection_fallback = False
         if len(detections) == 1:
             selected_box_id = 1
         else:
             annotated = draw_numbered_boxes(frame, detections)
-            image_url = encode_frame_to_data_url(
+            selection_frame, image_url = prepare_vlm_image(
                 annotated,
                 jpeg_quality=self.jpeg_quality,
                 width=self.frame_width,
                 height=self.frame_height,
             )
+            if audit is not None:
+                _maybe_store(
+                    audit_images,
+                    "selection_input",
+                    audit.save_image("selection_input_resized.jpg", selection_frame),
+                )
             selection_raw = self.vlm.select_target(image_url, detections)
             selected_box_id = parse_selection_box_id(selection_raw, len(detections))
             if selected_box_id is None:
                 height, width = frame.shape[:2]
                 selected_box_id = center_fallback_box_id(detections, (width, height))
+                selection_source = "center_fallback"
                 selection_fallback = True
+            else:
+                selection_source = "vlm"
+
+            selection_result = draw_numbered_boxes(
+                frame,
+                detections,
+                selected_box_id=selected_box_id,
+                show_count=True,
+            )
+            if audit is not None:
+                _maybe_store(
+                    audit_images,
+                    "selection_result",
+                    audit.save_image("selection_result.jpg", selection_result),
+                )
 
         selected_detection = detections[selected_box_id - 1]
         crop = crop_detection(frame, selected_detection.box, self.crop_scale)
-        crop_url = encode_frame_to_data_url(
+        crop_frame, crop_url = prepare_vlm_image(
             crop,
             jpeg_quality=self.jpeg_quality,
             width=self.frame_width,
             height=self.frame_height,
         )
+        if audit is not None:
+            _maybe_store(
+                audit_images,
+                "behavior_crop",
+                audit.save_image("behavior_crop_resized.jpg", crop_frame),
+            )
+
         behavior_raw = self.vlm.classify_behavior(crop_url)
+        behavior_result, behavior_parse_ok = parse_behavior_output(behavior_raw)
         return SingleFrameResult(
             image_name=image_name,
             num_boxes=len(detections),
@@ -233,18 +340,48 @@ class SingleFramePipeline:
             selected_box_id=selected_box_id,
             selected_box=selected_detection.box,
             selection_raw=selection_raw,
+            selection_source=selection_source,
             selection_fallback=selection_fallback,
             behavior_raw=behavior_raw,
-            predicted_label=normalize_behavior_label(behavior_raw),
+            behavior_result=behavior_result,
+            behavior_parse_ok=behavior_parse_ok,
+            predicted_label=behavior_result["behavior_name"],
+            audit_images=audit_images,
         )
+
+
+def parse_behavior_output(raw: str | None) -> tuple[dict[str, Any], bool]:
+    """Parse behavior VLM JSON, returning a safe normal result on any mismatch."""
+
+    try:
+        parsed = json.loads(_extract_json_object(raw or ""))
+    except (TypeError, ValueError, json.JSONDecodeError):
+        return dict(DEFAULT_BEHAVIOR_RESULT), False
+
+    if not isinstance(parsed, dict):
+        return dict(DEFAULT_BEHAVIOR_RESULT), False
+
+    evidence = parsed.get("evidence")
+    behavior_name = parsed.get("behavior_name")
+    if not isinstance(evidence, list):
+        return dict(DEFAULT_BEHAVIOR_RESULT), False
+    if not all(isinstance(item, str) for item in evidence):
+        return dict(DEFAULT_BEHAVIOR_RESULT), False
+    if not isinstance(behavior_name, str) or behavior_name not in BEHAVIOR_LABEL_SET:
+        return dict(DEFAULT_BEHAVIOR_RESULT), False
+    return {"evidence": evidence, "behavior_name": behavior_name}, True
 
 
 def normalize_behavior_label(text: str | None) -> str:
     """Normalize model or ground-truth text into a comparable behavior label."""
 
     raw = (text or "").strip()
-    if not raw or raw == NORMAL_LABEL:
+    if not raw or raw in {NORMAL_LABEL, LEGACY_NORMAL_LABEL}:
         return NORMAL_LABEL
+
+    behavior_result, parse_ok = parse_behavior_output(raw)
+    if parse_ok:
+        return behavior_result["behavior_name"]
 
     parts = re.split(r"\s*with\s*", raw, flags=re.IGNORECASE)
     if len(parts) >= 3:
@@ -253,11 +390,11 @@ def normalize_behavior_label(text: str | None) -> str:
             return candidate
 
     stripped = _strip_braces(raw)
-    if stripped in KNOWN_LABELS:
+    if stripped in TARGET_LABEL_SET:
         return stripped
 
     compact = re.sub(r"\s+", "", raw)
-    for label in BEHAVIOR_PRIORITY:
+    for label in TARGET_LABELS:
         if label in compact:
             return label
     return raw
@@ -306,7 +443,36 @@ def crop_detection(frame, box: Box, crop_scale: float):
     return frame[y1:y2, x1:x2].copy()
 
 
-def draw_numbered_boxes(frame, detections: list[PersonDetection]):
+def prepare_vlm_image(
+    frame,
+    *,
+    jpeg_quality: int,
+    width: int,
+    height: int,
+):
+    """Resize a BGR frame once and encode that exact image as a JPEG data URL."""
+
+    import cv2
+
+    resized = cv2.resize(frame, (width, height))
+    ok, buffer = cv2.imencode(
+        ".jpg",
+        resized,
+        [int(cv2.IMWRITE_JPEG_QUALITY), jpeg_quality],
+    )
+    if not ok:
+        raise RuntimeError("无法编码 VLM 输入图片")
+    encoded = base64.b64encode(buffer).decode("ascii")
+    return resized, f"data:image/jpeg;base64,{encoded}"
+
+
+def draw_numbered_boxes(
+    frame,
+    detections: list[PersonDetection],
+    *,
+    selected_box_id: int | None = None,
+    show_count: bool = False,
+):
     """Draw 1-based candidate ids on a copy of the image."""
 
     import cv2
@@ -314,8 +480,13 @@ def draw_numbered_boxes(frame, detections: list[PersonDetection]):
     annotated = frame.copy()
     for index, detection in enumerate(detections, start=1):
         x1, y1, x2, y2 = detection.box
-        cv2.rectangle(annotated, (x1, y1), (x2, y2), (0, 220, 255), 2)
+        is_selected = index == selected_box_id
+        color = (0, 255, 0) if is_selected else (0, 220, 255)
+        thickness = 4 if is_selected else 2
+        cv2.rectangle(annotated, (x1, y1), (x2, y2), color, thickness)
         label = str(index)
+        if is_selected:
+            label = f"{index} selected"
         cv2.putText(
             annotated,
             label,
@@ -326,7 +497,39 @@ def draw_numbered_boxes(frame, detections: list[PersonDetection]):
             3,
             cv2.LINE_AA,
         )
+    if show_count:
+        text = f"boxes={len(detections)} selected={selected_box_id}"
+        cv2.putText(
+            annotated,
+            text,
+            (12, 32),
+            cv2.FONT_HERSHEY_SIMPLEX,
+            0.9,
+            (255, 255, 255),
+            4,
+            cv2.LINE_AA,
+        )
+        cv2.putText(
+            annotated,
+            text,
+            (12, 32),
+            cv2.FONT_HERSHEY_SIMPLEX,
+            0.9,
+            (0, 0, 255),
+            2,
+            cv2.LINE_AA,
+        )
     return annotated
+
+
+def _maybe_store(images: dict[str, str], key: str, path: str) -> None:
+    if path:
+        images[key] = path
+
+
+def _safe_stem(image_name: str) -> str:
+    stem = Path(image_name).stem or "image"
+    return re.sub(r"[^A-Za-z0-9_.-]+", "_", stem)
 
 
 def _strip_braces(text: str) -> str:
