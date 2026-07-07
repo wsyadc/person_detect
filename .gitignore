@@ -13,3 +13,6 @@ paper/
 face.jpg
 *.pt
 *.onnx
+test/
+test_dataset/*.xlsx
+eval_outputs/

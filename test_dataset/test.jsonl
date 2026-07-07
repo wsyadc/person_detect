@@ -1,0 +1,624 @@
+{"id": 1, "image_name": "000001_65bcf107-4a5d-4c88-9a80-ef9efee449db.jpg", "model_answer": "{课堂表现}with{完全离席}with{检测到画面内无完整人物身体特征，仅显示小部分面部，无有效学习相关体态呈现}", "ground_truth": "无任何输出"}
+{"id": 2, "image_name": "000002_6a751024-8c4f-4922-a17d-f0af5aa0545d.jpg", "model_answer": "{课堂表现} with {完全离席} with {检测到画面内无完整人物身体特征及面部有效特征}", "ground_truth": "无任何输出"}
+{"id": 3, "image_name": "000003_3710d44d-2df3-48c6-a877-2044c3e4edb3.jpg", "model_answer": "{课堂表现}with{遮挡面部}with{检测到学生被前方的设备遮挡眼部及面部大部分区域}", "ground_truth": "遮挡面部"}
+{"id": 4, "image_name": "000004_01427980-050a-4b92-8518-58209ba41520.jpg", "model_answer": "{课堂表现} with {仰头} with {检测到学生面部朝向与画面水平方向夹角＞20度（向上）}", "ground_truth": "无任何输出"}
+{"id": 5, "image_name": "000005_3cc50ae1-fac9-4397-bc04-f960b805a8f3.jpg", "model_answer": "{课堂表现}with{摆弄电子设备}with{手部持有手机且屏幕可见，无学习机课程互动操作}", "ground_truth": "摆弄电子设备"}
+{"id": 6, "image_name": "000006_0736f1c8-3f33-4798-b48a-74b1714acb3e.jpg", "model_answer": "{健康状态} with {打哈欠} with {检测到学生嘴巴张大≥1.5cm，眼部半闭合且面部肌肉拉伸}", "ground_truth": "无任何输出"}
+{"id": 7, "image_name": "000007_32a61a40-c583-4afc-9cdc-563d6ceefdde.jpg", "model_answer": "{课堂表现}with{仰头}with{检测到学生面部朝向与画面水平方向夹角＞20度（向上）}", "ground_truth": "无任何输出"}
+{"id": 8, "image_name": "000008_238acb1a-9729-42d1-81d2-cd470710aa57.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 9, "image_name": "000009_7f98704b-3430-47cf-83e4-d03613eb5f33.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 10, "image_name": "000010_cf222a88-515b-4699-a99b-eeae03f7231b.jpg", "model_answer": "{健康状态}with{揉眼睛}with{检测到学生用手指接触眼部区域，有揉搓动作}", "ground_truth": "无任何输出"}
+{"id": 11, "image_name": "000011_39e7733e-870b-408a-99ad-763d79c841ca.jpg", "model_answer": "{课堂表现} with {仰头} with {检测到学生面部朝向与画面水平方向夹角＞20度（向上）}", "ground_truth": "无任何输出"}
+{"id": 12, "image_name": "000012_60ddfcb7-067b-498f-856d-c5800e3b2660.jpg", "model_answer": "{课堂表现}with{完全离席}with{检测到画面内无人物身体特征及面部有效特征}", "ground_truth": "完全离席"}
+{"id": 13, "image_name": "000013_0ac25ceb-fa41-4d0c-9a36-28973fe44e3f.jpg", "model_answer": "{课堂表现} with {完全离席} with {检测到画面内无人物身体特征及面部有效特征}", "ground_truth": "完全离席"}
+{"id": 14, "image_name": "000014_530f9ebd-f7e4-4ce8-82bc-8c3d4b1344b2.jpg", "model_answer": "{课堂表现}with{遮挡面部}with{检测到学生的头发遮挡部分面部}", "ground_truth": "无任何输出"}
+{"id": 15, "image_name": "000015_2ab28f9e-581c-432b-b695-8f3236400277.jpg", "model_answer": "{课堂表现} with {完全离席} with {检测到画面内仅出现部分头顶，无完整人物身体特征及面部有效特征}", "ground_truth": "东张西望"}
+{"id": 16, "image_name": "000016_df593d95-4e3c-4cbc-9d61-469b0b57a423.jpg", "model_answer": "{课堂表现}with{完全离席}with{检测到画面内仅显示部分头部，无完整人物身体特征及有效面部特征}", "ground_truth": "东张西望"}
+{"id": 17, "image_name": "000017_d0fcef36-ef03-45a4-b890-46eb2443fc80.jpg", "model_answer": "{课堂表现}with{遮挡面部}with{检测到画面仅露出学生部分头部，面部被遮挡，无法看到完整面部特征}", "ground_truth": "东张西望"}
+{"id": 18, "image_name": "000018_96c72e11-2b7c-4b68-83f3-a05a9feb8fb1.jpg", "model_answer": "{课堂表现}with{完全离席}with{检测到画面内仅呈现部分头部，无完整人物身体特征及有效面部特征}", "ground_truth": "东张西望"}
+{"id": 19, "image_name": "000019_82437c6a-82d8-4360-bdad-a18154cdc177.jpg", "model_answer": "{课堂表现}with{完全离席}with{检测到画面内仅显示部分头部，无完整人物身体特征及有效面部特征}", "ground_truth": "东张西望"}
+{"id": 20, "image_name": "000020_ba9b07d4-689a-4893-957a-ef4e0bc805b5.jpg", "model_answer": "{课堂表现}with{完全离席}with{检测到画面内仅显示人物部分头部，无完整身体特征及有效面部特征}", "ground_truth": "东张西望"}
+{"id": 21, "image_name": "000021_87fa83b2-0bec-4797-8e43-e9b0844a449a.jpg", "model_answer": "{课堂表现} with {遮挡面部} with {检测到学生的面部被上方的物体遮挡，仅露出部分头部}", "ground_truth": "东张西望"}
+{"id": 22, "image_name": "000022_8e767d83-7a1a-451a-a8ab-e626af7d26b3.jpg", "model_answer": "{课堂表现} with {遮挡面部} with {检测到学生头部下方的物体遮挡住部分面部}", "ground_truth": "东张西望"}
+{"id": 23, "image_name": "000023_c05200ac-841d-4cec-8b8c-0f739f0481ab.jpg", "model_answer": "{课堂表现}with{完全离席}with{检测到画面内仅显示少量人物头部，无完整人物身体特征及有效面部特征}", "ground_truth": "东张西望"}
+{"id": 24, "image_name": "000024_7f1265a7-0297-4dd3-8694-3fb18658be77.jpg", "model_answer": "{课堂表现}with{完全离席}with{检测到画面内仅显示人物头部一小部分，无完整身体特征及有效面部特征，未呈现正常听课的身体姿态}", "ground_truth": "东张西望"}
+{"id": 25, "image_name": "000025_4cf19d90-49f9-4529-87e5-bb16953d469c.jpg", "model_answer": "{课堂表现}with{完全离席}with{检测到画面内仅显示部分头部，无完整人物身体特征及有效面部特征}", "ground_truth": "东张西望"}
+{"id": 26, "image_name": "000026_29683d66-65da-4130-a455-877d67ddb35e.jpg", "model_answer": "{课堂表现}with{遮挡面部}with{检测到学生头部位置较低，大部分面部被遮挡}", "ground_truth": "东张西望"}
+{"id": 27, "image_name": "000027_6b972785-937e-4bef-ac27-2dd91ba26957.jpg", "model_answer": "{课堂表现}with{完全离席}with{检测到画面内仅呈现部分头发，无完整人物身体特征及面部有效特征}", "ground_truth": "东张西望"}
+{"id": 28, "image_name": "000028_a6e778b6-fdfa-464d-808b-bcbcd2ef50a9.jpg", "model_answer": "{课堂表现} with {完全离席} with {检测到画面内仅显示人物头部部分区域，无完整身体特征及有效面部特征}", "ground_truth": "东张西望"}
+{"id": 29, "image_name": "000029_41c2150b-10ac-4fc3-aa78-6e2a97a404c8.jpg", "model_answer": "{课堂表现}with{遮挡面部}with{检测到学生的面部被自身头部上方的结构遮挡，仅露出部分头部}", "ground_truth": "东张西望"}
+{"id": 30, "image_name": "000030_2be9707e-0d33-4e92-92a9-b0310e6fd492.jpg", "model_answer": "{课堂表现}with{完全离席}with{检测到画面内仅露出部分头部，无完整人物身体特征及有效面部特征}", "ground_truth": "东张西望"}
+{"id": 31, "image_name": "000031_7a52b633-e4e6-4a24-a379-d67c7e9a0caf.jpg", "model_answer": "{课堂表现} with {完全离席} with {检测到画面内仅显示部分头部，无完整人物身体特征及有效面部特征}", "ground_truth": "东张西望"}
+{"id": 32, "image_name": "000032_56f2638f-6c1b-4f0a-b376-8683af4171cf.jpg", "model_answer": "{课堂表现} with {完全离席} with {检测到画面内仅呈现部分头部，无完整人物身体特征及有效面部特征}", "ground_truth": "东张西望"}
+{"id": 33, "image_name": "000033_b5104599-5dbb-4ea6-8a22-a7cee464e78a.jpg", "model_answer": "{课堂表现}with{遮挡面部}with{检测到学生的面部被上方结构遮挡，仅露出头顶部分}", "ground_truth": "东张西望"}
+{"id": 34, "image_name": "000034_052899f4-ed2a-460f-b695-b34ea5538493.jpg", "model_answer": "{课堂表现} with {完全离席} with {检测到画面内仅显示部分头部，无完整人物身体特征及有效面部特征}", "ground_truth": "东张西望"}
+{"id": 35, "image_name": "000035_c64fe60c-f84f-49ae-9e61-9811bcf8c0c9.jpg", "model_answer": "{课堂表现}with{完全离席}with{检测到画面内仅露出人物部分头部，无完整身体特征及有效面部特征}", "ground_truth": "东张西望"}
+{"id": 36, "image_name": "000036_b936e9ae-cb80-4e7e-b422-ae4cd60876dc.jpg", "model_answer": "{课堂表现}with{完全离席}with{检测到画面内仅显示部分头部，无完整人物身体特征及有效面部特征}", "ground_truth": "东张西望"}
+{"id": 37, "image_name": "000037_6498d880-be61-4959-a7f2-8c4d799a4542.jpg", "model_answer": "{课堂表现} with {遮挡面部} with {检测到学生的面部被上方的结构遮挡，仅露出部分头部}", "ground_truth": "东张西望"}
+{"id": 38, "image_name": "000038_95f7fdc4-9a5f-44d7-a9f0-72256e368733.jpg", "model_answer": "{课堂表现} with {遮挡面部} with {检测到学生的面部被自身头部下方的物体遮挡，仅露出部分额头和眼镜}", "ground_truth": "东张西望"}
+{"id": 39, "image_name": "000039_f7f537ad-771e-4a1b-b832-c36a810e4223.jpg", "model_answer": "{课堂表现}with{东张西望}with{检测到学生面部朝左，与画面中心线夹角≥25度}", "ground_truth": "东张西望"}
+{"id": 40, "image_name": "000040_6d2db7f6-bec1-4805-9493-7db36ee9431a.jpg", "model_answer": "{课堂表现}with{完全离席}with{检测到画面内无完整人物身体特征，仅露出部分头部，无有效面部特征及学习姿态呈现}", "ground_truth": "东张西望"}
+{"id": 41, "image_name": "000041_29b394b5-8f25-4ed6-9907-a6d5289cdb98.jpg", "model_answer": "{课堂表现} with {完全离席} with {检测到画面内无完整的人物身体特征及有效面部特征，仅露出部分头部，无正常听课的身体姿态呈现}", "ground_truth": "东张西望"}
+{"id": 42, "image_name": "000042_b9de88e4-60ee-42bb-b40a-55f8e8a48b18.jpg", "model_answer": "{课堂表现}with{完全离席}with{检测到画面内仅呈现小部分人物头部，无完整身体特征及有效面部特征}", "ground_truth": "东张西望"}
+{"id": 43, "image_name": "000043_aa09c2f7-531d-4165-b461-2b27ab7c4077.jpg", "model_answer": "{课堂表现}with{仰头}with{检测到学生面部朝向与画面水平方向夹角＞20度（向上）}", "ground_truth": "东张西望"}
+{"id": 44, "image_name": "000044_c19b9b7c-ef1f-465a-b89a-698468dfc271.jpg", "model_answer": "{课堂表现} with {完全离席} with {检测到画面内仅呈现部分头部，无完整人物身体特征及有效面部特征}", "ground_truth": "东张西望"}
+{"id": 45, "image_name": "000045_4d730dc0-10db-4f60-a6cb-461672e60e5f.jpg", "model_answer": "{课堂表现} with {完全离席} with {检测到画面内无完整人物身体特征及清晰面部有效特征}", "ground_truth": "东张西望"}
+{"id": 46, "image_name": "000046_b3e0cfd6-c2cf-4fb1-9f76-56e9b43478d4.jpg", "model_answer": "{课堂表现}with{完全离席}with{检测到画面内仅显示部分头部，无完整人物身体特征及有效面部特征}", "ground_truth": "东张西望"}
+{"id": 47, "image_name": "000047_a3ea1cd4-5e96-4b69-8eaa-7dc65e6202dd.jpg", "model_answer": "{课堂表现} with {完全离席} with {检测到画面内仅显示部分头顶，无完整人物身体特征及面部有效特征}", "ground_truth": "东张西望"}
+{"id": 48, "image_name": "000048_76456fe1-a6c4-424d-8cba-c3c1042339ed.jpg", "model_answer": "{课堂表现} with {完全离席} with {检测到画面内仅显示少量人物头部区域，无完整人物身体特征及有效面部特征}", "ground_truth": "东张西望"}
+{"id": 49, "image_name": "000049_17e17696-781e-47f7-9daa-c8f16adc7976.jpg", "model_answer": "{课堂表现}with{完全离席}with{检测到画面内仅露出部分头顶，无完整人物身体特征及面部有效特征}", "ground_truth": "东张西望"}
+{"id": 50, "image_name": "000050_c9f38a40-f45f-4c50-b864-00e65f110ed4.jpg", "model_answer": "{课堂表现}with{完全离席}with{检测到画面内仅露出部分头部，无完整人物身体特征及有效面部特征}", "ground_truth": "东张西望"}
+{"id": 51, "image_name": "000051_a0320ef9-4e81-4898-98dd-d1128d02024b.jpg", "model_answer": "{课堂表现} with {完全离席} with {检测到画面内仅显示部分头部，无完整的人物身体特征及有效面部特征}", "ground_truth": "东张西望"}
+{"id": 52, "image_name": "000052_bf77ade8-ff4d-4b0e-9195-ffdb9e1420a1.jpg", "model_answer": "{课堂表现}with{仰头}with{检测到学生面部朝上，与画面水平方向夹角＞20度}", "ground_truth": "东张西望"}
+{"id": 53, "image_name": "000053_6a4118da-3145-4c5f-bb5f-e8414eac64c3.jpg", "model_answer": "{课堂表现} with {完全离席} with {检测到画面内仅显示部分头部，无完整人物身体特征及有效面部特征}", "ground_truth": "无任何输出"}
+{"id": 54, "image_name": "000054_d358bbfd-c30f-4117-a4af-bb9e7512662d.jpg", "model_answer": "{课堂表现} with {完全离席} with {检测到画面内无完整人物身体特征及有效面部特征}", "ground_truth": "东张西望"}
+{"id": 55, "image_name": "000055_6e782e8f-b183-4a23-8e8c-a6b0d3fa4cd1.jpg", "model_answer": "{课堂表现} with {完全离席} with {检测到画面内仅露出部分头部，无完整人物身体特征及有效面部特征}", "ground_truth": "东张西望"}
+{"id": 56, "image_name": "000056_5bd4e179-f5e7-436c-9524-517f27e8f3c7.jpg", "model_answer": "{课堂表现}with{完全离席}with{检测到画面内仅呈现部分头部，无完整人物身体特征及有效面部特征}", "ground_truth": "东张西望"}
+{"id": 57, "image_name": "000057_628756fd-775f-4533-a6a0-d20ace4fc95f.jpg", "model_answer": "{课堂表现} with {完全离席} with {检测到画面内无完整人物身体特征及有效面部特征，仅露出部分头部}", "ground_truth": "东张西望"}
+{"id": 58, "image_name": "000058_14aae947-ec10-4145-ac88-f57e3bd8c9a9.jpg", "model_answer": "{课堂表现}with{完全离席}with{检测到画面内无人物身体特征及面部有效特征}", "ground_truth": "完全离席"}
+{"id": 59, "image_name": "000059_72d51583-93e6-45b5-9b99-8a0f0d599b1d.jpg", "model_answer": "{课堂表现} with {完全离席} with {检测到画面内无完整人物身体特征及面部有效特征}", "ground_truth": "无任何输出"}
+{"id": 60, "image_name": "000060_77d71ed1-ad25-49fa-a0ac-e3a4f7db1796.jpg", "model_answer": "{课堂表现}with{遮挡面部}with{检测到学生面部被身体遮挡，无法看到完整面部特征}", "ground_truth": "无任何输出"}
+{"id": 61, "image_name": "000061_f44d7b2e-9fa1-442a-8afa-21083fb6595e.jpg", "model_answer": "{课堂表现}with{完全离席}with{检测到画面内无人物面部有效特征，仅显示部分身体部位，无法确认专注学习状态}", "ground_truth": "无任何输出"}
+{"id": 62, "image_name": "000062_ee125552-3d1e-4402-af12-88ffa1a2a751.jpg", "model_answer": "{课堂表现} with {完全离席} with {检测到画面内无人物面部有效特征，仅显示部分身体区域，未呈现正常学习相关的体态与动作}", "ground_truth": "无任何输出"}
+{"id": 63, "image_name": "000063_989a6076-87e1-42ea-8852-75902b79d403.jpg", "model_answer": "{课堂表现} with {完全离席} with {检测到画面内无人物身体特征及面部有效特征}", "ground_truth": "无任何输出"}
+{"id": 64, "image_name": "000064_e8757d0e-af30-4d6e-9ab3-425ae3d414cd.jpg", "model_answer": "{课堂表现} with {遮挡面部} with {检测到学生的面部被遮挡，无法看到面部特征}", "ground_truth": "无任何输出"}
+{"id": 65, "image_name": "000065_343330a9-1ce1-4a8d-afb2-9aed08c51123.jpg", "model_answer": "{课堂表现}with{遮挡面部}with{检测到学生的面部被灰色衣物遮挡，无法看到面部特征}", "ground_truth": "无任何输出"}
+{"id": 66, "image_name": "000066_0094f858-798e-4412-b28a-1d5fa0b2d6a8.jpg", "model_answer": "{课堂表现} with {完全离席} with {检测到画面内无人物完整身体特征及面部有效特征}", "ground_truth": "无任何输出"}
+{"id": 67, "image_name": "000067_869a6730-5229-4323-ab90-8b7bbebab4eb.jpg", "model_answer": "{课堂表现}with{遮挡面部}with{检测到学生的手部遮挡住面部区域}", "ground_truth": "无任何输出"}
+{"id": 68, "image_name": "000068_b789a5fa-f02f-42ae-ba1e-4552c4126796.jpg", "model_answer": "{课堂表现}with{遮挡面部}with{检测到学生的面部被头发遮挡，无法看到完整面部特征}", "ground_truth": "无任何输出"}
+{"id": 69, "image_name": "000069_d9e16a20-4a30-4e80-85e2-daf9f498e809.jpg", "model_answer": "{课堂表现} with {完全离席} with {检测到画面内无人物有效身体特征及面部有效特征}", "ground_truth": "无任何输出"}
+{"id": 70, "image_name": "000070_aaaac7e4-3f8c-4725-9442-450450994325.jpg", "model_answer": "{课堂表现}with{遮挡面部}with{检测到学生面部未在画面中呈现，无法观察到面部状态}", "ground_truth": "无任何输出"}
+{"id": 71, "image_name": "000071_83ec3aa7-19d3-474a-a473-a5be6f63155a.jpg", "model_answer": "{课堂表现}with{遮挡面部}with{检测到学生的面部被衣物遮挡，无法看到面部特征}", "ground_truth": "无任何输出"}
+{"id": 72, "image_name": "000072_a0cda4b9-0fe8-4c09-9dcb-d4fc1a6228a3.jpg", "model_answer": "{课堂表现}with{完全离席}with{检测到画面内无人物面部有效特征，仅显示部分躯干}", "ground_truth": "无任何输出"}
+{"id": 73, "image_name": "000073_5e295e01-ce5d-4f1a-9e22-de2f03d6faea.jpg", "model_answer": "{课堂表现} with {遮挡面部} with {检测到学生的面部被身体遮挡，无法看到面部特征}", "ground_truth": "无任何输出"}
+{"id": 74, "image_name": "000074_a495240e-2c2f-4b1f-921e-4411438f3c14.jpg", "model_answer": "{课堂表现} with {遮挡面部} with {检测到学生用手掌遮挡面部，无法看到眼部及完整面部特征}", "ground_truth": "无任何输出"}
+{"id": 75, "image_name": "000075_0da48d0d-5e09-4bd7-9b39-d27afaafb119.jpg", "model_answer": "{课堂表现} with {完全离席} with {检测到画面内无人物身体特征及面部有效特征}", "ground_truth": "完全离席"}
+{"id": 76, "image_name": "000076_a762dc7e-c886-4a53-b710-9fedf9b6c301.jpg", "model_answer": "{课堂表现} with {完全离席} with {检测到画面内无人物身体特征及面部有效特征}", "ground_truth": "完全离席"}
+{"id": 77, "image_name": "000077_97345a33-bf17-4f16-b5a0-6e0e87e707a2.jpg", "model_answer": "{课堂表现} with {摆弄电子设备} with {手部持有手机且屏幕可见，无学习机课程互动操作}", "ground_truth": "摆弄电子设备"}
+{"id": 78, "image_name": "000078_f7f6cd7e-25c8-4f11-a7ec-f432e6fe3497.jpg", "model_answer": "{课堂表现}with{摆弄电子设备}with{手部持有手机，无学习机课程互动操作}", "ground_truth": "摆弄电子设备"}
+{"id": 79, "image_name": "000079_45bd1f75-00dd-43b2-ae6b-4f741352c66d.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 80, "image_name": "000080_904e7c34-b8ee-418b-80e3-01166e2b5772.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 81, "image_name": "000081_46417adb-e8d6-45e0-93f7-f3228cc1a96f.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 82, "image_name": "000082_ea20b0cc-469b-40a1-9d71-c0cc28dc2a3b.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 83, "image_name": "000083_281a1938-b7da-46b0-a480-3804b973076e.jpg", "model_answer": "{健康状态} with {揉眼睛} with {检测到学生双眼闭合，眼部有被触摸揉搓的动作特征}", "ground_truth": "无任何输出"}
+{"id": 84, "image_name": "000084_9dd31bc0-b7fa-4346-befd-f7fa2b273f43.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 85, "image_name": "000085_1117641a-6a7d-4711-8f41-71412c4caea8.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 86, "image_name": "000086_d40d1010-e78b-4e7d-9ba3-d54311aeca2d.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 87, "image_name": "000087_b17ae2e3-af91-44a2-9000-28778b85f40c.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 88, "image_name": "000088_a817f955-853e-4821-bbdb-4a2bc32c2ec7.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 89, "image_name": "000089_a522df1c-689e-485e-a9ef-0630eed68b97.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 90, "image_name": "000090_c24c7d3d-7f64-4017-b04e-7604d60d09e6.jpg", "model_answer": "{健康状态} with {揉眼睛} with {检测到学生双眼闭合，眼部区域有被接触揉搓的状态}", "ground_truth": "无任何输出"}
+{"id": 91, "image_name": "000091_cb89f17a-e9ab-47fc-a57a-ff6ab2ae6c7d.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 92, "image_name": "000092_b6d2616b-074a-42dd-9704-8fd5dbef2534.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 93, "image_name": "000093_64c6508e-47f4-4fda-ba6d-e7d3f42edd06.jpg", "model_answer": "{课堂表现} with {遮挡面部} with {检测到学生用手掌遮挡嘴巴及部分面部区域}", "ground_truth": "遮挡面部"}
+{"id": 94, "image_name": "000094_ddc1133c-6be6-479a-848c-af260400a538.jpg", "model_answer": "无任何输出", "ground_truth": "东张西望"}
+{"id": 95, "image_name": "000095_1b2e01c3-620d-484c-a660-3e98b4466afb.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 96, "image_name": "000096_e4f9baa5-b942-4033-a079-90e2b41a4bc1.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 97, "image_name": "000097_e8dd7496-c401-4f7e-8efa-fee968adc6c1.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 98, "image_name": "000098_e3a6accc-c732-4b05-833f-e7451faf3afb.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 99, "image_name": "000099_6df12577-6e83-4719-aff8-644d837e9fa7.jpg", "model_answer": "{课堂表现}with{遮挡面部}with{检测到学生用手掌遮挡面部，遮挡了部分眼部区域}", "ground_truth": "遮挡面部"}
+{"id": 100, "image_name": "000100_41b895c6-5e2e-4332-a766-be9d0e20ae13.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 101, "image_name": "000101_26a72082-e7f7-43fe-83d5-681f41bf797c.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 102, "image_name": "000102_4a91f83f-0eab-4809-8e15-7b85a5451947.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 103, "image_name": "000103_da407d85-aed7-4df0-93b0-6f36b7568392.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 104, "image_name": "000104_e9bc8d45-3fa0-4937-aa30-286de070e96b.jpg", "model_answer": "{课堂表现} with {东张西望} with {检测到学生面部朝右，与画面中心线夹角≥25度}", "ground_truth": "摆弄电子设备"}
+{"id": 105, "image_name": "000105_2febd6f1-7265-4705-a925-96bd36d7837f.jpg", "model_answer": "{课堂表现}with{东张西望}with{检测到学生面部朝右，与画面中心线夹角≥25度}", "ground_truth": "东张西望"}
+{"id": 106, "image_name": "000106_9c8d83aa-0443-4cc6-91bb-4834efdf0956.jpg", "model_answer": "{课堂表现}with{东张西望}with{检测到学生面部朝右，与画面中心线夹角≥25度}", "ground_truth": "东张西望"}
+{"id": 107, "image_name": "000107_7b527178-3ba7-41d0-9777-34b693b5e6b7.jpg", "model_answer": "{健康状态} with {打哈欠} with {检测到右侧人物嘴巴张大≥1.5cm，眼部闭合且面部肌肉拉伸}", "ground_truth": "无任何输出"}
+{"id": 108, "image_name": "000108_6f9c98e5-15f1-40ed-a03f-d4a2b98b916b.jpg", "model_answer": "无任何输出", "ground_truth": "东张西望"}
+{"id": 109, "image_name": "000109_22372668-1e0d-4caa-946e-0d1a5e3c3861.jpg", "model_answer": "{课堂表现} with {东张西望} with {检测到学生面部朝右，与画面中心线夹角≥25度}", "ground_truth": "东张西望"}
+{"id": 110, "image_name": "000110_f67d82d0-5e81-4ce8-867a-37dc80b163ae.jpg", "model_answer": "无任何输出", "ground_truth": "东张西望"}
+{"id": 111, "image_name": "000111_dbe1f3fe-ee7f-4636-ba23-6a363109b382.jpg", "model_answer": "{课堂表现} with {遮挡面部} with {检测到学生用手掌遮挡嘴巴及部分面部区域}", "ground_truth": "遮挡面部"}
+{"id": 112, "image_name": "000112_69001f63-9df9-4342-a221-fd38fa224cff.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 113, "image_name": "000113_29b3aacd-ec91-491f-b5a8-9aec648cc999.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 114, "image_name": "000114_afe821b6-a945-4e5a-bd7f-af0e80ccce08.jpg", "model_answer": "{健康状态} with {揉眼睛} with {检测到学生单手手指接触眼部区域，有来回揉搓的动作特征}", "ground_truth": "揉眼睛"}
+{"id": 115, "image_name": "000115_761e18cc-02e9-40af-b864-1eb366f696c1.jpg", "model_answer": "{课堂表现}with{遮挡面部}with{检测到学生用手掌遮挡嘴巴及部分面部区域}", "ground_truth": "遮挡面部"}
+{"id": 116, "image_name": "000116_adf99086-89b7-4641-a0c6-88bf480241dc.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 117, "image_name": "000117_6345e5be-1f51-44e4-9b19-f5e4b972c762.jpg", "model_answer": "{课堂表现}with{遮挡面部}with{检测到学生双手拿着纸巾遮挡住眼部及面部区域}", "ground_truth": "遮挡面部"}
+{"id": 118, "image_name": "000118_62060f11-00e3-47c2-b51c-250bce106d3e.jpg", "model_answer": "{课堂表现}with{遮挡面部}with{检测到学生用手中物品遮挡嘴部区域}", "ground_truth": "摆弄玩具"}
+{"id": 119, "image_name": "000119_ac35f4b2-054b-42ef-a506-516884c1a2c0.jpg", "model_answer": "{课堂表现}with{东张西望}with{检测到学生面部朝左，与画面中心线夹角≥25度}", "ground_truth": "东张西望"}
+{"id": 120, "image_name": "000120_008d6fd8-77c4-4707-9991-f0c0030db186.jpg", "model_answer": "{课堂表现} with {东张西望} with {检测到学生面部朝右，与画面中心线夹角≥25度}", "ground_truth": "东张西望"}
+{"id": 121, "image_name": "000121_963574b3-2214-47d3-bead-564f94d6511d.jpg", "model_answer": "{课堂表现}with{东张西望}with{检测到学生面部朝右，与画面中心线夹角≥25度}", "ground_truth": "东张西望"}
+{"id": 122, "image_name": "000122_c71de24a-3427-46e2-99ef-4aba3243cfdd.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 123, "image_name": "000123_cc468cfa-8885-449d-af2d-ece9ad75e9a0.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 124, "image_name": "000124_796d434c-6139-4938-ab39-40b9d7765d44.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 125, "image_name": "000125_e89ca9e1-afa8-4cdf-9041-b2b9bf75217d.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 126, "image_name": "000126_c4510c65-11fc-426f-9d4b-de4efce05bd7.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 127, "image_name": "000127_d1742f00-020e-4ace-be27-94cbfc37cbd7.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 128, "image_name": "000128_08991233-908e-4e47-bf7d-362974dbe32a.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 129, "image_name": "000129_f95065a7-bdb8-4b74-b3a9-6dcdda22fdb3.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 130, "image_name": "000130_7e26d843-9b63-4c96-971a-1a27f05f0bfd.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 131, "image_name": "000131_9c16067f-591c-4c79-ac3d-0fd064dac4d0.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 132, "image_name": "000132_6f1b6afe-a85c-4a4c-a018-f23ed623e571.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 133, "image_name": "000133_fd2ad82a-eadc-4f63-ad26-dfb22aa6f6c4.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 134, "image_name": "000134_b3e6c44b-4cf0-4c02-8a12-0c4652ee43f7.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 135, "image_name": "000135_60f8a813-1061-43f8-ac3a-4eddad6ceceb.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 136, "image_name": "000136_6f1bd388-ee7d-4a30-81fa-b1a1d2cd543e.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 137, "image_name": "000137_c70144a2-0860-452b-9531-2a882a971f9b.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 138, "image_name": "000138_6ca9bfc8-6118-49cf-a4a1-ccac562cda93.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 139, "image_name": "000139_f8d3a721-30f3-492f-acdc-f5629799023e.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 140, "image_name": "000140_cda0c9b0-3b1a-4c0d-aaa6-7dbffac465cd.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 141, "image_name": "000141_97d6f5af-97df-4c00-8161-f7c2ae3ea97c.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 142, "image_name": "000142_2bd5d89c-757f-44a6-a45e-1a3a41cb47b8.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 143, "image_name": "000143_491ed881-fb2f-4325-bb48-7aa93757314d.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 144, "image_name": "000144_92defe46-6ccb-4976-8df3-e79da6dedd94.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 145, "image_name": "000145_4d13c88e-d316-4114-b790-c76b12c92111.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 146, "image_name": "000146_6775425b-1354-4d04-b836-35e35e1094be.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 147, "image_name": "000147_c45821ea-62ed-40b5-bde8-066cc8dd1f65.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 148, "image_name": "000148_8289c26c-e5b9-4b57-ade6-b11550aa49f6.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 149, "image_name": "000149_c3aa0421-1f2c-4eee-980a-a56e44642d5e.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 150, "image_name": "000150_86a73bc8-42d6-4783-aa97-64ca8ecf754e.jpg", "model_answer": "{健康状态} with {打哈欠} with {检测到学生嘴巴张大≥1.5cm，眼部半闭合且面部肌肉拉伸}", "ground_truth": "无任何输出"}
+{"id": 151, "image_name": "000151_dad79bb2-5377-48f2-995c-1852585568e8.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 152, "image_name": "000152_45c4b9e8-be20-40c3-9bd8-f17ef673053c.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 153, "image_name": "000153_30f1cf9c-797c-4356-ab17-0133404e056b.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 154, "image_name": "000154_c7335d70-6a04-47eb-a74d-7367cad2bfa0.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 155, "image_name": "000155_6ce969d8-47c5-4a70-afea-b15276f20250.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 156, "image_name": "000156_dbbc0939-55a4-4b99-818c-6bb37156cb90.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 157, "image_name": "000157_70aa7e1c-533c-4e6a-93ff-1773c9a27cba.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 158, "image_name": "000158_baae5dbc-c061-433f-88a6-f3701288de48.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 159, "image_name": "000159_f244b431-9545-4f18-b288-0b48ef09c8f0.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 160, "image_name": "000160_4828f615-a9e2-4f26-9fda-120c4822a8e9.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 161, "image_name": "000161_c9884a8a-f949-45e1-80f9-3933e47b766f.jpg", "model_answer": "{课堂表现}with{遮挡面部}with{检测到学生用手掌遮挡眼部区域}", "ground_truth": "遮挡面部"}
+{"id": 162, "image_name": "000162_f3630a7d-9374-4eb9-ae03-f1024b515fb2.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 163, "image_name": "000163_ab6c5a3a-501b-491c-aff4-039879960ec0.jpg", "model_answer": "{健康状态}with{揉眼睛}with{检测到学生用手指接触眼部区域，有揉搓动作}", "ground_truth": "遮挡面部"}
+{"id": 164, "image_name": "000164_50fe1a4e-8831-450d-9704-517390037e04.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 165, "image_name": "000165_4c185faf-7947-4bda-9703-148b478db2c1.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 166, "image_name": "000166_84ebc29d-bef4-47d5-92ec-4d10bef825fb.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 167, "image_name": "000167_ff0d7744-630f-4b30-a924-72c05db24f7a.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 168, "image_name": "000168_d5528249-25e7-4e57-8a54-48dd6733340a.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 169, "image_name": "000169_ce5af509-4992-4506-be5e-d980be496fc0.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 170, "image_name": "000170_a9b91bac-0018-4c1a-b43f-0b41c0886e9c.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 171, "image_name": "000171_0763b869-1d2d-4afb-98f2-6647a862e84a.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 172, "image_name": "000172_10f5da42-0d79-4c0f-b15d-42092020942f.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 173, "image_name": "000173_e835b451-7833-4534-8434-1a3c30dd3277.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 174, "image_name": "000174_efb5f1c0-ec27-439e-9f69-46fcb55d2a03.jpg", "model_answer": "{课堂表现}with{东张西望}with{检测到学生面部朝右，与画面中心线夹角≥25度}", "ground_truth": "东张西望"}
+{"id": 175, "image_name": "000175_2ad526ad-50df-4563-a8a5-675e2e1c00d7.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 176, "image_name": "000176_84392af0-c0b1-4753-8a5b-1c584a780e50.jpg", "model_answer": "无任何输出", "ground_truth": "东张西望"}
+{"id": 177, "image_name": "000177_0062b1af-23e1-429b-8014-73a05eb26c13.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 178, "image_name": "000178_7f341295-c1fa-4192-8713-10061ef5afef.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 179, "image_name": "000179_ed6f4257-8f56-4f48-8c77-46e5e3045973.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 180, "image_name": "000180_6e9e2e6a-1110-4ce5-a26d-a0ac04a1deb0.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 181, "image_name": "000181_a81550d6-be36-437f-b767-522f1e27f266.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 182, "image_name": "000182_a94d658c-6a0e-4444-97eb-5a980da98b48.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 183, "image_name": "000183_6c7ebe4c-3975-4695-b8dc-81ab35b8be09.jpg", "model_answer": "课堂表现with趴桌懈怠with检测到学生上半身伏于桌面，躯干弯曲夹角＞30°，无端坐、书写动作", "ground_truth": "无任何输出"}
+{"id": 184, "image_name": "000184_85a5be99-29f9-4f5d-b0c5-a56a0749ead1.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 185, "image_name": "000185_0e9dc332-ae6f-42ea-ba6d-31bc6c32162f.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 186, "image_name": "000186_9d1e8f7a-88fe-4095-994a-58dfc2011bd1.jpg", "model_answer": "{课堂表现} with {双手托腮} with {检测到学生单手托举脸颊，无学习互动操作}", "ground_truth": "双手托腮"}
+{"id": 187, "image_name": "000187_1915d806-3f50-41a1-8b7d-1e588b163052.jpg", "model_answer": "{课堂表现}with{双手托腮}with{检测到学生单手托举脸颊，无任何学习互动操作}", "ground_truth": "双手托腮"}
+{"id": 188, "image_name": "000188_13bd5c77-f76f-4b77-b997-5b760845543a.jpg", "model_answer": "{课堂表现} with {双手托腮} with {检测到学生单手托举脸颊，无任何学习互动操作}", "ground_truth": "双手托腮"}
+{"id": 189, "image_name": "000189_931324d9-e007-4b7f-bd06-e33097b43e0b.jpg", "model_answer": "{课堂表现} with {双手托腮} with {检测到学生单手托举脸颊，无任何学习互动操作}", "ground_truth": "双手托腮"}
+{"id": 190, "image_name": "000190_64e43d95-0eaa-4e98-a964-622570e8b314.jpg", "model_answer": "{课堂表现} with {双手托腮} with {检测到学生单手托举脸颊，无任何学习互动操作}", "ground_truth": "双手托腮"}
+{"id": 191, "image_name": "000191_ea49795f-01a8-49e5-a5f3-38dc21b4492b.jpg", "model_answer": "{课堂表现}with{双手托腮}with{检测到学生单手托举脸颊，无任何学习互动操作}", "ground_truth": "双手托腮"}
+{"id": 192, "image_name": "000192_64f2e6f9-17e6-45c5-9af7-57ff5a20f271.jpg", "model_answer": "{课堂表现}with{双手托腮}with{检测到学生单手持续托举脸颊，无任何学习互动操作}", "ground_truth": "双手托腮"}
+{"id": 193, "image_name": "000193_c1e0ac04-5922-4074-9948-aa8489133e83.jpg", "model_answer": "{课堂表现} with {双手托腮} with {检测到学生单手托举脸颊，无任何学习互动操作}", "ground_truth": "双手托腮"}
+{"id": 194, "image_name": "000194_395ea637-7568-42de-b83e-fb7f68f43184.jpg", "model_answer": "{课堂表现}with{双手托腮}with{检测到学生单手托举脸颊，无任何学习互动操作}", "ground_truth": "双手托腮"}
+{"id": 195, "image_name": "000195_866c490a-c304-43f9-b3f0-f9f1a9e6cce6.jpg", "model_answer": "{课堂表现} with {双手托腮} with {检测到学生单手托举脸颊，无任何学习互动操作}", "ground_truth": "双手托腮"}
+{"id": 196, "image_name": "000196_2ed24c37-dd50-4bbd-aedf-91bd1b974c0a.jpg", "model_answer": "{课堂表现}with{双手托腮}with{学生双手托举脸颊，无任何学习互动操作}", "ground_truth": "双手托腮"}
+{"id": 197, "image_name": "000197_afaca8fa-e45f-4f87-b075-895d2d36ce7e.jpg", "model_answer": "{课堂表现}with{双手托腮}with{检测到学生双手托举脸颊，无学习互动操作}", "ground_truth": "双手托腮"}
+{"id": 198, "image_name": "000198_75b233ad-1e4c-4579-9b8d-c79bdf513794.jpg", "model_answer": "{课堂表现} with {双手托腮} with {检测到学生双手托举脸颊，无任何学习互动操作}", "ground_truth": "双手托腮"}
+{"id": 199, "image_name": "000199_c611a576-3210-4a52-9cc0-18124dc0d540.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 200, "image_name": "000200_f58a6b59-86af-4b5f-969f-e02b8261cdea.jpg", "model_answer": "{课堂表现}with{双手托腮}with{检测到学生单手托举脸颊，无学习互动操作}", "ground_truth": "双手托腮"}
+{"id": 201, "image_name": "000201_d38ccc98-0c89-4e7d-9b54-290eb6d561c0.jpg", "model_answer": "{课堂表现}with{双手托腮}with{检测到学生单手托举脸颊，无任何学习互动操作}", "ground_truth": "双手托腮"}
+{"id": 202, "image_name": "000202_43d156a8-3e87-4eae-aca4-6851540a90b6.jpg", "model_answer": "{课堂表现} with {双手托腮} with {检测到学生单手托举脸颊，无任何学习互动操作}", "ground_truth": "双手托腮"}
+{"id": 203, "image_name": "000203_d9e2b66b-a2fe-4018-b2af-0b2e04666b68.jpg", "model_answer": "{课堂表现}with{双手托腮}with{检测到学生单手持续托举脸颊，无任何学习互动操作}", "ground_truth": "双手托腮"}
+{"id": 204, "image_name": "000204_b41c5362-8ebe-4045-bce0-e46b5e8d25ac.jpg", "model_answer": "{课堂表现}with{双手托腮}with{检测到学生单手托举脸颊，无学习互动操作}", "ground_truth": "双手托腮"}
+{"id": 205, "image_name": "000205_493dba76-9d80-4cbd-91fa-d232c2330cad.jpg", "model_answer": "{课堂表现}with{双手托腮}with{检测到学生单手托举脸颊，无学习互动操作}", "ground_truth": "双手托腮"}
+{"id": 206, "image_name": "000206_61fb040e-5c06-4c59-baeb-7a6ba70cfbfc.jpg", "model_answer": "{课堂表现}with{双手托腮}with{检测到学生单手托举脸颊，无学习互动操作}", "ground_truth": "双手托腮"}
+{"id": 207, "image_name": "000207_faeec0bc-eea3-4f3f-9416-8e2169ffee3c.jpg", "model_answer": "{课堂表现}with{双手托腮}with{检测到学生单手托举脸颊，无任何学习互动操作}", "ground_truth": "双手托腮"}
+{"id": 208, "image_name": "000208_a92a015b-a84f-465d-a9a0-24da0eb9cb79.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 209, "image_name": "000209_cd7976c0-c25a-4ea0-999e-7db1664773c2.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 210, "image_name": "000210_26b9a1b8-b4e8-49ea-86ba-a65de41610f4.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 211, "image_name": "000211_efebd856-2ec2-4750-8a37-2f5873b9783a.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 212, "image_name": "000212_8a848669-f8be-4285-a6c5-eb783f712d0a.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 213, "image_name": "000213_eba9464f-1f49-4673-afa9-2e092d171973.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 214, "image_name": "000214_2773cf69-e378-461b-83fe-000f5bafe59e.jpg", "model_answer": "{健康状态}with{揉眼睛}with{检测到学生双手手指接触眼部区域，有来回揉搓的动作特征}", "ground_truth": "无任何输出"}
+{"id": 215, "image_name": "000215_94c1caf1-d377-4258-94cf-ed9846503fe2.jpg", "model_answer": "{课堂表现}with{双手托腮}with{检测到学生双手托举脸颊，无任何学习互动操作}", "ground_truth": "双手托腮"}
+{"id": 216, "image_name": "000216_16d599e0-cff3-4a8c-b5c9-aefea8bc460e.jpg", "model_answer": "{课堂表现} with {遮挡面部} with {检测到学生用双手遮挡住嘴巴及部分面部}", "ground_truth": "双手托腮"}
+{"id": 217, "image_name": "000217_dc5a9b17-af07-420c-a855-799bdb842f41.jpg", "model_answer": "{课堂表现}with{双手托腮}with{检测到学生双手持续托举下巴，无任何学习互动操作}", "ground_truth": "双手托腮"}
+{"id": 218, "image_name": "000218_03b9ae0d-5ac0-44ad-b68a-0e09dc893c03.jpg", "model_answer": "{健康状态}with{揉眼睛}with{检测到学生用手指接触眼部区域，有来回揉搓的动作}", "ground_truth": "揉眼睛"}
+{"id": 219, "image_name": "000219_d6d6b31d-25bd-4266-9692-0c2579582224.jpg", "model_answer": "{课堂表现}with{双手托腮}with{检测到学生双手托举脸颊，无学习互动操作}", "ground_truth": "双手托腮"}
+{"id": 220, "image_name": "000220_8ae06f54-9894-414c-afc4-91ed6dc6c963.jpg", "model_answer": "{课堂表现}with{双手托腮}with{检测到学生双手持续托举脸颊，无任何学习互动操作}", "ground_truth": "双手托腮"}
+{"id": 221, "image_name": "000221_e16eecc9-efc9-4e80-9ed1-afbc6d5ab757.jpg", "model_answer": "{课堂表现} with {双手托腮} with {检测到学生双手托举脸颊，无任何学习互动操作}", "ground_truth": "双手托腮"}
+{"id": 222, "image_name": "000222_d1a59b0a-b3e0-40d9-a02f-36f7a63c4e97.jpg", "model_answer": "{课堂表现}with{双手托腮}with{检测到学生双手持续托举下巴，无任何学习互动操作}", "ground_truth": "双手托腮"}
+{"id": 223, "image_name": "000223_3506f64b-6912-461f-84e0-ae88a292b80c.jpg", "model_answer": "{课堂表现}with{双手托腮}with{学生双手托举下巴，无任何学习互动操作}", "ground_truth": "双手托腮"}
+{"id": 224, "image_name": "000224_22926249-294e-4f8d-8ce4-c3b8dc6f9b6f.jpg", "model_answer": "{课堂表现} with {双手托腮} with {检测到学生双手持续托举下巴，无任何学习互动操作}", "ground_truth": "双手托腮"}
+{"id": 225, "image_name": "000225_bce54fbc-27ba-4ea6-9bcb-5bf5cfb57427.jpg", "model_answer": "{课堂表现}with{双手托腮}with{检测到学生双手托举下巴，无任何学习互动操作}", "ground_truth": "双手托腮"}
+{"id": 226, "image_name": "000226_755e568d-2681-4c4c-b533-1885bb74c848.jpg", "model_answer": "{课堂表现}with{双手托腮}with{检测到学生双手托举下巴，无学习互动操作}", "ground_truth": "双手托腮"}
+{"id": 227, "image_name": "000227_8fb26180-78fa-42a2-944e-55e5746d601d.jpg", "model_answer": "{课堂表现}with{双手托腮}with{检测到学生双手托举脸颊，无任何学习互动操作}", "ground_truth": "双手托腮"}
+{"id": 228, "image_name": "000228_7b1552ff-c730-4a35-96da-52bf7cca9586.jpg", "model_answer": "{课堂表现}with{双手托腮}with{检测到学生双手托举脸颊，无学习互动操作}", "ground_truth": "双手托腮"}
+{"id": 229, "image_name": "000229_31e68dd9-4904-4ba4-a1af-72183d15a0bd.jpg", "model_answer": "{课堂表现}with{双手托腮}with{检测到学生双手持续托举脸颊，无任何学习互动操作}", "ground_truth": "双手托腮"}
+{"id": 230, "image_name": "000230_84a676dd-ed63-4979-9b41-9575e6fd4d14.jpg", "model_answer": "{课堂表现} with {双手托腮} with {检测到学生双手持续托举脸颊，无任何学习互动操作}", "ground_truth": "双手托腮"}
+{"id": 231, "image_name": "000231_399361fc-6e05-4f67-b675-216fec9b7117.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 232, "image_name": "000232_f9a38a27-ce64-4dca-958a-ed7ac1897548.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 233, "image_name": "000233_92f91fc5-943b-42db-9d38-ec75860c6838.jpg", "model_answer": "{健康状态} with {打哈欠} with {检测到学生嘴巴张大≥1.5cm，眼部半闭合且面部肌肉拉伸}", "ground_truth": "无任何输出"}
+{"id": 234, "image_name": "000234_58e4a3a8-ce4a-4df4-976e-05fdcd5400a7.jpg", "model_answer": "{课堂表现} with {双手托腮} with {检测到画面左侧人物单手托举脸颊，无学习互动操作}", "ground_truth": "双手托腮"}
+{"id": 235, "image_name": "000235_74e89f6d-36da-4674-bda8-4e206ae8c41c.jpg", "model_answer": "{课堂表现}with{双手托腮}with{画面左侧人物单手托举下巴，无学习互动操作}", "ground_truth": "双手托腮"}
+{"id": 236, "image_name": "000236_b508ac7e-7efc-4fd5-9835-f1bf140ff7c1.jpg", "model_answer": "{课堂表现} with {双手托腮} with {检测到画面左侧人物单手托举下巴，无学习互动操作}", "ground_truth": "双手托腮"}
+{"id": 237, "image_name": "000237_5db6bb4e-0f24-4589-81ab-8a0a56a81edb.jpg", "model_answer": "{课堂表现} with {双手托腮} with {检测到左侧人物单手握拳托举下巴，无学习互动操作}", "ground_truth": "双手托腮"}
+{"id": 238, "image_name": "000238_8d57bb80-5ae9-4798-aa6f-1c9796866c14.jpg", "model_answer": "{课堂表现}with{双手托腮}with{检测到画面左侧女性单手掌持续托举脸颊，无学习互动操作}", "ground_truth": "双手托腮"}
+{"id": 239, "image_name": "000239_3fe116b3-9f94-4397-ab8a-8b1077dede31.jpg", "model_answer": "{课堂表现} with {双手托腮} with {检测到画面左侧女性单手持续托举脸颊，无学习互动操作}", "ground_truth": "双手托腮"}
+{"id": 240, "image_name": "000240_8a44d812-c2c2-4e4a-a9c0-971d8228b7f2.jpg", "model_answer": "{课堂表现}with{双手托腮}with{检测到画面左侧女性用手托举下巴，无学习互动操作}", "ground_truth": "双手托腮"}
+{"id": 241, "image_name": "000241_7f31d799-46f6-49f3-ad0a-b10752eafcd2.jpg", "model_answer": "{课堂表现} with {双手托腮} with {检测到画面左侧人物单手托举下巴，无学习互动操作}", "ground_truth": "双手托腮"}
+{"id": 242, "image_name": "000242_d22112af-38d5-477a-9f78-62136ec4a700.jpg", "model_answer": "{课堂表现}with{双手托腮}with{检测到画面左侧女性单手托举脸颊，无学习互动操作}", "ground_truth": "双手托腮"}
+{"id": 243, "image_name": "000243_a2403818-42ac-48a7-bf72-521b503f933d.jpg", "model_answer": "{课堂表现}with{双手托腮}with{画面左侧女性用手托举下巴，无学习互动操作}", "ground_truth": "双手托腮"}
+{"id": 244, "image_name": "000244_a76b9273-5a9c-4a45-bf14-cc4651dfa7dd.jpg", "model_answer": "{课堂表现}with{双手托腮}with{检测到画面左侧人物单手托举下巴，无学习互动操作}", "ground_truth": "双手托腮"}
+{"id": 245, "image_name": "000245_48206333-afd9-4cd2-b26d-413b5b59105c.jpg", "model_answer": "课堂表现with双手托腮with检测到画面左侧女性单手托举下巴，无学习互动操作", "ground_truth": "课堂表现with双手托腮with检测到画面左侧女性单手托举下巴，无学习互动操作"}
+{"id": 246, "image_name": "000246_ddc7a674-a87a-41c7-a146-7899b551a52d.jpg", "model_answer": "{课堂表现}with{趴桌懈怠}with{检测到学生上半身伏于桌面，面部向下贴靠，躯干弯曲夹角＞30°，无端坐、书写动作}", "ground_truth": "双手托腮"}
+{"id": 247, "image_name": "000247_43d575cc-adc6-4bf1-b1d0-5c43e559aed4.jpg", "model_answer": "课堂表现with趴桌懈怠with检测到学生上半身伏低，面部向下贴靠，躯干弯曲夹角＞30°，无书写动作", "ground_truth": "双手托腮"}
+{"id": 248, "image_name": "000248_25984790-8ae6-4cc6-b425-ea583231ed7e.jpg", "model_answer": "{课堂表现} with {趴桌懈怠} with {检测到学生上半身伏于桌面，面部贴靠下方区域，躯干弯曲夹角＞30°，无书写动作}", "ground_truth": "双手托腮"}
+{"id": 249, "image_name": "000249_2d818f8e-ab49-45de-b646-645a20fb16e9.jpg", "model_answer": "{课堂表现} with {双手托腮} with {检测到画面左侧人物单手托举下巴，无学习互动操作}", "ground_truth": "双手托腮"}
+{"id": 250, "image_name": "000250_b2b04ab0-aaf5-45aa-9739-cfdbbca09ab1.jpg", "model_answer": "无任何输出", "ground_truth": "双手托腮"}
+{"id": 251, "image_name": "000251_49243c33-4cdd-484d-804a-4c4014406591.jpg", "model_answer": "{健康状态}with{打哈欠}with{检测到画面左侧人物嘴巴被手遮挡，眼部闭合且面部肌肉有拉伸动作}", "ground_truth": "遮挡面部"}
+{"id": 252, "image_name": "000252_3067b4af-a74b-4fdd-b13f-2e2abd4f333d.jpg", "model_answer": "{课堂表现}with{双手托腮}with{画面左侧女性单手握拳托举脸颊，无学习互动操作}", "ground_truth": "双手托腮"}
+{"id": 253, "image_name": "000253_dbf6b0f3-25dd-4646-8a9a-9590c509e42c.jpg", "model_answer": "{课堂表现} with {双手托腮} with {检测到画面左侧女性单手托举脸颊，无学习互动操作}", "ground_truth": "双手托腮"}
+{"id": 254, "image_name": "000254_398c36eb-be1f-4e82-9d34-26320c854aac.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 255, "image_name": "000255_d5bdf586-7fb7-41d0-a5b6-3699d553bab2.jpg", "model_answer": "{课堂表现}with{双手托腮}with{画面左侧女性单手托举脸颊，无学习互动操作}", "ground_truth": "双手托腮"}
+{"id": 256, "image_name": "000256_a08c9489-15f1-412a-b09d-76149c4a1571.jpg", "model_answer": "{课堂表现}with{双手托腮}with{检测到画面左侧女性用手托举脸颊，无学习互动操作}", "ground_truth": "双手托腮"}
+{"id": 257, "image_name": "000257_e351276f-00bc-4a86-9959-87fed8b32c7b.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 258, "image_name": "000258_2e56f5a2-8c2d-4056-998b-f510796d783d.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 259, "image_name": "000259_717f564c-47a6-49c9-8380-e1d8a4236205.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 260, "image_name": "000260_259217a4-3d0a-4027-855e-a6117d91311d.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 261, "image_name": "000261_ba6e7a9a-cdd4-42e7-853b-64a229be8895.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 262, "image_name": "000262_b16de63f-1325-4bae-b32c-55df082449d9.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 263, "image_name": "000263_763572c8-1a5b-456c-8a68-481bb1bc4a9a.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 264, "image_name": "000264_9de1f2b4-1a31-4fbc-ab21-ec82f4f4c742.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 265, "image_name": "000265_80896fed-fca9-4c5e-9cf5-8d10bb965790.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 266, "image_name": "000266_bb1d5f55-0371-4aa7-9072-34d187ca655f.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 267, "image_name": "000267_df0120eb-8dce-4dc7-9e65-554a2b7bff9a.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 268, "image_name": "000268_687dd113-58c3-43bb-8227-e1ba6fc53655.jpg", "model_answer": "{课堂表现} with {双手托腮} with {检测到画面左侧女性单手掌持续托举脸颊，无学习互动操作}", "ground_truth": "双手托腮"}
+{"id": 269, "image_name": "000269_f1a9dd0a-13c1-43fd-a385-42f55e0a9d18.jpg", "model_answer": "{课堂表现}with{双手托腮}with{检测到画面左侧人物双手托举脸颊，无学习互动操作}", "ground_truth": "双手托腮"}
+{"id": 270, "image_name": "000270_e74ff2a4-9f99-427d-9b0f-7da7aca2833a.jpg", "model_answer": "无任何输出", "ground_truth": "双手托腮"}
+{"id": 271, "image_name": "000271_7dad534f-431b-4f86-bb04-82f39d89bb68.jpg", "model_answer": "{课堂表现}with{双手托腮}with{检测到画面左侧人物单手握拳托举下巴，无学习互动操作}", "ground_truth": "双手托腮"}
+{"id": 272, "image_name": "000272_3f4317b4-3ca5-4377-867d-421d36a43754.jpg", "model_answer": "无任何输出", "ground_truth": "双手托腮"}
+{"id": 273, "image_name": "000273_d18ad6c9-03e6-4d0b-999f-13961ab244e7.jpg", "model_answer": "{课堂表现}with{趴桌懈怠}with{检测到学生上半身伏于桌面，躯干弯曲夹角＞30°，无端坐、书写动作}", "ground_truth": "无任何输出"}
+{"id": 274, "image_name": "000274_10673412-72ea-4f9c-abe0-cb743e334d18.jpg", "model_answer": "{课堂表现}with{趴桌懈怠}with{检测到学生上半身伏低，面部向下贴靠视线朝向桌面，躯干弯曲夹角＞30°，无书写动作}", "ground_truth": "无任何输出"}
+{"id": 275, "image_name": "000275_3a982d80-2dc4-40a4-819a-766eeed912c5.jpg", "model_answer": "{课堂表现}with{双手托腮}with{检测到画面左侧女性单手托举脸颊，无学习互动操作}", "ground_truth": "双手托腮"}
+{"id": 276, "image_name": "000276_cfaf54a6-f449-438c-84ea-d383502eef22.jpg", "model_answer": "{课堂表现} with {双手托腮} with {检测到画面左侧女性单手握拳托举脸颊，无学习互动操作}", "ground_truth": "双手托腮"}
+{"id": 277, "image_name": "000277_4bc6ee39-b474-40ee-be19-087edddc4fa0.jpg", "model_answer": "{课堂表现}with{趴桌懈怠}with{检测到学生上半身伏于桌面，面部贴靠下方，躯干弯曲夹角＞30°，无端坐、书写动作}", "ground_truth": "无任何输出"}
+{"id": 278, "image_name": "000278_414ceaae-4af6-4716-8dd8-8dcae88a1198.jpg", "model_answer": "{课堂表现}with{双手托腮}with{检测到画面左侧女性单手握拳托举下巴，无学习互动操作}", "ground_truth": "双手托腮"}
+{"id": 279, "image_name": "000279_2b11927c-adb0-4911-91de-35f8b81d99d2.jpg", "model_answer": "{课堂表现}with{双手托腮}with{检测到画面左侧女性单手托举下巴，无学习互动操作}", "ground_truth": "双手托腮"}
+{"id": 280, "image_name": "000280_76dbb3a7-d561-42aa-a751-58668bb3214c.jpg", "model_answer": "{课堂表现}with{双手托腮}with{检测到画面左侧女性用单手托举下巴，无学习互动操作}", "ground_truth": "双手托腮"}
+{"id": 281, "image_name": "000281_d8b32d35-4e1f-4e56-9700-9d3be53b764c.jpg", "model_answer": "{课堂表现}with{双手托腮}with{检测到画面左侧女性手部托举下巴，无学习互动操作}", "ground_truth": "双手托腮"}
+{"id": 282, "image_name": "000282_1aaa7b97-a300-428a-8f6f-bf8bcd3b8969.jpg", "model_answer": "{课堂表现}with{双手托腮}with{左侧学生单手托举脸颊，无任何学习互动操作}", "ground_truth": "双手托腮"}
+{"id": 283, "image_name": "000283_7a4cf0fc-56c5-4e4e-b7eb-b75eee8b72e1.jpg", "model_answer": "{课堂表现}with{双手托腮}with{检测到左侧学生单手托举脸颊，无学习互动操作}", "ground_truth": "双手托腮"}
+{"id": 284, "image_name": "000284_206eca3e-a954-45bc-92e4-7afd77271e2e.jpg", "model_answer": "{课堂表现}with{双手托腮}with{左侧学生单手持续托举脸颊，无任何学习互动操作}", "ground_truth": "双手托腮"}
+{"id": 285, "image_name": "000285_1088cd1a-1ac9-440f-8542-5692e9f9f109.jpg", "model_answer": "{课堂表现}with{双手托腮}with{左侧学生单手持续托举脸颊，无任何学习互动操作}", "ground_truth": "双手托腮"}
+{"id": 286, "image_name": "000286_a576ea70-5935-4a87-bdb5-480659bbc271.jpg", "model_answer": "{课堂表现}with{双手托腮}with{左侧学生单手持续托举脸颊，无任何学习互动操作}", "ground_truth": "双手托腮"}
+{"id": 287, "image_name": "000287_29ef64fa-338f-42b6-b144-f208bd22e25a.jpg", "model_answer": "{课堂表现} with {双手托腮} with {检测到左侧学生单手持续托举脸颊，无任何学习互动操作}", "ground_truth": "双手托腮"}
+{"id": 288, "image_name": "000288_0b86be79-2780-4577-bec1-81878cbf8f27.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 289, "image_name": "000289_2890546b-2376-4dc5-88cd-dde2aea7be55.jpg", "model_answer": "{课堂表现}with{双手托腮}with{检测到左侧学生单手托举脸颊，无学习互动操作}", "ground_truth": "双手托腮"}
+{"id": 290, "image_name": "000290_7bd2fa4c-6f56-49ed-919a-833b50795747.jpg", "model_answer": "{课堂表现} with {双手托腮} with {左侧学生单手托举脸颊，无任何学习互动操作}", "ground_truth": "双手托腮"}
+{"id": 291, "image_name": "000291_bba69d58-20a2-477d-b55c-72356fc2ef75.jpg", "model_answer": "{课堂表现}with{双手托腮}with{左侧学生单手托举脸颊，无任何学习互动操作}", "ground_truth": "双手托腮"}
+{"id": 292, "image_name": "000292_33abc6d4-7eaa-42d4-be1f-9a47e6220a2b.jpg", "model_answer": "{课堂表现} with {双手托腮} with {检测到左侧学生单手持续托举下巴，无任何学习互动操作}", "ground_truth": "双手托腮"}
+{"id": 293, "image_name": "000293_3ee9a33f-76db-422d-b6c5-382df04deacc.jpg", "model_answer": "{课堂表现} with {双手托腮} with {检测到左侧学生单手托举脸颊，无学习互动操作}", "ground_truth": "双手托腮"}
+{"id": 294, "image_name": "000294_60325fec-f4f2-4765-853c-05d4ea68785a.jpg", "model_answer": "{课堂表现}with{双手托腮}with{检测到左侧学生单手持续托举脸颊，无任何学习互动操作}", "ground_truth": "双手托腮"}
+{"id": 295, "image_name": "000295_b85e3bf5-945c-4a59-9bcf-b223c4706780.jpg", "model_answer": "{课堂表现}with{双手托腮}with{左侧学生单手持续托举脸颊，无任何学习互动操作}", "ground_truth": "双手托腮"}
+{"id": 296, "image_name": "000296_59af5a32-c46e-4578-96f9-49e3dca68ebe.jpg", "model_answer": "{课堂表现}with{摆弄电子设备}with{左侧人物手部持有手机且屏幕发光，无学习机课程互动操作}", "ground_truth": "摆弄电子设备"}
+{"id": 297, "image_name": "000297_c59dbaf9-6b42-497c-ade0-d26e2dbed95a.jpg", "model_answer": "{课堂表现}with{摆弄电子设备}with{左侧人物手部持有手机且屏幕发光，无学习机课程互动操作}", "ground_truth": "摆弄电子设备"}
+{"id": 298, "image_name": "000298_c4f86426-c6f5-4a5d-9c2f-18a7899893a1.jpg", "model_answer": "{课堂表现}with{摆弄电子设备}with{左侧人物手部持有手机且屏幕发光，无学习机课程互动操作}", "ground_truth": "摆弄电子设备"}
+{"id": 299, "image_name": "000299_381845de-b244-40dc-9aad-156a8257ced6.jpg", "model_answer": "{课堂表现}with{摆弄电子设备}with{画面左侧人物手部持有手机，无学习机课程互动操作}", "ground_truth": "摆弄电子设备"}
+{"id": 300, "image_name": "000300_b83a1a43-105c-4908-9901-03c696de4048.jpg", "model_answer": "{健康状态} with {揉眼睛} with {检测到左侧学生用手指接触眼部区域，有来回揉搓的动作}", "ground_truth": "揉眼睛"}
+{"id": 301, "image_name": "000301_eaeccda5-cd61-4007-8f66-658a754360bf.jpg", "model_answer": "{课堂表现} with {摆弄电子设备} with {左侧学生手部持有手机且屏幕发光，无学习机课程互动操作}\n{健康状态} with {揉眼睛} with {右侧学生双眼闭合，眼部有被揉搓的状态}", "ground_truth": "摆弄电子设备"}
+{"id": 302, "image_name": "000302_f3704e13-fced-4483-8ea4-4899a20ee286.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 303, "image_name": "000303_74efaeef-ceb2-47b4-80c2-a3e98b262a8c.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 304, "image_name": "000304_4d1b1f16-5150-4c01-9326-5a5e79070f12.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 305, "image_name": "000305_a38bec1a-4cfd-4270-989b-30aba8ae15fd.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 306, "image_name": "000306_a67b5c4d-bfef-4ef3-8977-eed604be5375.jpg", "model_answer": "{课堂表现}with{双手托腮}with{左侧学生单手握拳托举脸颊，无学习互动操作}", "ground_truth": "遮挡面部"}
+{"id": 307, "image_name": "000307_e971aa96-8537-4f42-9028-7c517f93c631.jpg", "model_answer": "{课堂表现}with{遮挡面部}with{检测到左侧学生用手掌遮挡眼部区域}", "ground_truth": "遮挡面部"}
+{"id": 308, "image_name": "000308_27b7999b-ba65-43fe-a3dd-1c726eea25b9.jpg", "model_answer": "{课堂表现}with{摆弄电子设备}with{左侧人物手部持有手机且屏幕发光，无学习机课程互动操作}", "ground_truth": "摆弄电子设备"}
+{"id": 309, "image_name": "000309_b0a2bc8b-4d3e-4426-ac96-a346afe13a66.jpg", "model_answer": "{课堂表现} with {双手托腮} with {左侧女生单手托举脸颊，无学习互动操作}\n{课堂表现} with {摆弄电子设备} with {左侧女生手部持有手机，无学习机课程互动操作}", "ground_truth": "双手托腮"}
+{"id": 310, "image_name": "000310_15143a10-c9d9-405c-b5f3-56344148a5fe.jpg", "model_answer": "{健康状态} with {揉眼睛} with {检测到学生双眼闭合，有眼部区域接触的揉搓动作特征}", "ground_truth": "摆弄电子设备"}
+{"id": 311, "image_name": "000311_6ca7a3ca-53c1-499d-96e1-93a9b478646b.jpg", "model_answer": "{课堂表现}with{摆弄电子设备}with{画面左侧人物手部持有手机，无学习机课程互动操作}", "ground_truth": "摆弄电子设备"}
+{"id": 312, "image_name": "000312_05137e94-42cd-4245-be79-a374deed029b.jpg", "model_answer": "{课堂表现} with {双手托腮} with {检测到画面左侧学生单手托举脸颊，无学习互动操作}", "ground_truth": "双手托腮"}
+{"id": 313, "image_name": "000313_114ee0e7-0db5-4a0b-b32c-a5181702d882.jpg", "model_answer": "{课堂表现}with{遮挡面部}with{左侧学生用书本遮挡部分面部}", "ground_truth": "无任何输出"}
+{"id": 314, "image_name": "000314_9697e9d3-e0ed-4c25-bad4-3defa741dc2f.jpg", "model_answer": "{课堂表现}with{摆弄电子设备}with{画面左侧人物双手持有手机，无学习机课程互动操作}", "ground_truth": "摆弄电子设备"}
+{"id": 315, "image_name": "000315_967e1682-8fd7-485f-ae0d-c7ee31a65558.jpg", "model_answer": "{课堂表现}with{摆弄电子设备}with{画面左侧人物手部持有电子设备，无学习机课程互动操作}", "ground_truth": "摆弄电子设备"}
+{"id": 316, "image_name": "000316_b510ee46-c9dd-4b7d-a49a-d11852706e04.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 317, "image_name": "000317_c511320a-afde-4cf2-b5a6-48ce76abb511.jpg", "model_answer": "{课堂表现}with{东张西望}with{检测到左侧学生面部朝右，与画面中心线夹角≥25度}", "ground_truth": "无任何输出"}
+{"id": 318, "image_name": "000318_4f993bf5-ae78-444c-9b1f-89200e211387.jpg", "model_answer": "{课堂表现}with{东张西望}with{检测到左侧学生面部朝右，与画面中心线夹角≥25度}", "ground_truth": "无任何输出"}
+{"id": 319, "image_name": "000319_02941da7-b041-4491-bf5b-988c6fb5ef8d.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 320, "image_name": "000320_e9bdda03-cebe-4ed4-9a0e-8504ac6fb3cd.jpg", "model_answer": "课堂表现with东张西望with检测到左侧学生面部朝右，与画面中心线夹角≥25度", "ground_truth": "无任何输出"}
+{"id": 321, "image_name": "000321_fbbf704c-bc90-44f5-9c56-0d0530a5d127.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 322, "image_name": "000322_db572dfd-2d65-43e8-ab86-d44371a7fcf7.jpg", "model_answer": "{课堂表现}with{双手托腮}with{检测到左侧学生单手托举脸颊，无学习互动操作}", "ground_truth": "双手托腮"}
+{"id": 323, "image_name": "000323_d6830657-a35b-4b00-a9b1-c678d467ad76.jpg", "model_answer": "{课堂表现}with{双手托腮}with{左侧学生单手托举脸颊，无学习互动操作}", "ground_truth": "双手托腮"}
+{"id": 324, "image_name": "000324_f1d0bde2-e0ad-4339-b598-c1ed5a143d32.jpg", "model_answer": "{课堂表现}with{双手托腮}with{左侧学生用单手托举脸颊，无学习互动操作}", "ground_truth": "双手托腮"}
+{"id": 325, "image_name": "000325_e72fb4af-5dee-48da-9fa6-edc5163e017b.jpg", "model_answer": "{课堂表现}with{双手托腮}with{左侧学生单手持续托举脸颊，无任何学习互动操作}", "ground_truth": "遮挡面部"}
+{"id": 326, "image_name": "000326_5d311917-3e94-4715-8871-3feb32e0e5f0.jpg", "model_answer": "{课堂表现}with{遮挡面部}with{左侧学生用手掌遮挡眼部区域}", "ground_truth": "遮挡面部"}
+{"id": 327, "image_name": "000327_fe109225-2f37-4eb8-8631-578f73dc3230.jpg", "model_answer": "{课堂表现}with{双手托腮}with{检测到左侧学生用单手托举脸颊，无学习互动操作}\n{课堂表现}with{摆弄电子设备}with{左侧学生手部持有手机，无学习机课程互动操作}", "ground_truth": "双手托腮"}
+{"id": 328, "image_name": "000328_a5f3de56-29d3-4a58-aa86-67c909670fc8.jpg", "model_answer": "{课堂表现}with{双手托腮}with{检测到左侧学生单手持续托举脸颊，无学习互动操作}", "ground_truth": "双手托腮"}
+{"id": 329, "image_name": "000329_05cdb6fe-2a83-41ba-af8f-33c906438cdb.jpg", "model_answer": "{课堂表现}with{双手托腮}with{检测到左侧学生单手持续托举脸颊，无任何学习互动操作}", "ground_truth": "双手托腮"}
+{"id": 330, "image_name": "000330_7ac4fca2-48aa-4c60-bbbd-3ecec113755f.jpg", "model_answer": "{课堂表现} with {双手托腮} with {检测到左侧学生单手持续托举脸颊，无任何学习互动操作}", "ground_truth": "双手托腮"}
+{"id": 331, "image_name": "000331_97f4cfab-48dd-4c25-a702-aa755fee0601.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 332, "image_name": "000332_6beb55d1-228d-43b0-9c5d-81962d1d7f62.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 333, "image_name": "000333_fc7233bf-b45c-4045-b2a0-ac86d8978f6c.jpg", "model_answer": "{课堂表现}with{摆弄玩具}with{左侧学生手部持有带有绿色玩偶的背包，无书写等学习动作}", "ground_truth": "无任何输出"}
+{"id": 334, "image_name": "000334_50247307-879a-4cac-b019-dcfde96c5e39.jpg", "model_answer": "{课堂表现}with{仰头}with{检测到学生面部朝向与画面水平方向夹角＞20度（向上）}", "ground_truth": "无任何输出"}
+{"id": 335, "image_name": "000335_225d9515-5209-4e31-a2c0-31c27cc3e4c7.jpg", "model_answer": "{课堂表现} with {东张西望} with {检测到学生面部朝右，与画面中心线夹角≥25度}", "ground_truth": "无任何输出"}
+{"id": 336, "image_name": "000336_7fca438d-2c20-493a-a5e6-73aa44c5ef1c.jpg", "model_answer": "{课堂表现}with{举手行为}with{检测到学生单侧手臂主动向上抬起，脱离自然垂落状态，呈现主动举手示意动作}", "ground_truth": "仰头"}
+{"id": 337, "image_name": "000337_a394dd4e-2dbd-44c5-a3bd-3aca6bfbd9bc.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 338, "image_name": "000338_195df991-615c-4f6d-b867-37139f7d3824.jpg", "model_answer": "无任何输出", "ground_truth": "遮挡面部"}
+{"id": 339, "image_name": "000339_a5f2c7c9-e1dc-4dad-a692-1516fd5b4012.jpg", "model_answer": "无任何输出", "ground_truth": "双手托腮"}
+{"id": 340, "image_name": "000340_846a1823-cb9f-42e1-86fe-47916b97a894.jpg", "model_answer": "无任何输出", "ground_truth": "双手托腮"}
+{"id": 341, "image_name": "000341_384e490f-86bc-47d3-b065-3d69ed28b3d9.jpg", "model_answer": "{课堂表现} with {双手托腮} with {左侧男子单手握拳托举下巴，无学习互动操作}", "ground_truth": "双手托腮"}
+{"id": 342, "image_name": "000342_46d3024a-259f-4738-8c57-7c3d55cdf415.jpg", "model_answer": "{课堂表现}with{双手托腮}with{检测到画面左侧的人用单手托举脸颊，无学习互动操作}", "ground_truth": "双手托腮"}
+{"id": 343, "image_name": "000343_ce83fe17-8776-45fb-9286-36d091137d97.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 344, "image_name": "000344_5b3a0286-31b3-49f2-96b5-d927c99d5a76.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 345, "image_name": "000345_933e7984-163f-41e7-90ae-531709666055.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 346, "image_name": "000346_9c19fc88-fdca-4b8f-9a02-2d8add376e43.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 347, "image_name": "000347_7ca998fd-6ad6-4c9f-8164-42f89eca7c27.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 348, "image_name": "000348_3f172ed7-2130-4c4a-881f-6c130a6f4f5c.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 349, "image_name": "000349_c2e1f8b5-29b1-4554-9cf9-ecbda1209faf.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 350, "image_name": "000350_57711858-78c9-401f-936c-1133ff15a58e.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 351, "image_name": "000351_11d72d69-2f99-440c-ab0f-7dfc74cb8595.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 352, "image_name": "000352_7f55d7fe-b9b6-472c-b92b-09e42c51c7a2.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 353, "image_name": "000353_8b5e871d-2351-498e-a75e-ad66746b78dc.jpg", "model_answer": "{课堂表现} with {举手行为} with {检测到学生单侧手臂主动向上抬起，脱离自然垂落状态，呈现主动举手示意动作}", "ground_truth": "举手行为"}
+{"id": 354, "image_name": "000354_d70fa2bb-3dfc-41bc-a84a-d447d58f5b61.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 355, "image_name": "000355_50543f64-a476-4284-8605-87a87db9da7b.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 356, "image_name": "000356_c11b5e34-a0dc-4604-ade7-824bff693377.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 357, "image_name": "000357_50c234b4-7df4-4848-aaa0-7ed45abb9066.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 358, "image_name": "000358_c64d275c-ad1c-47d5-8ea5-2177a5e856e0.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 359, "image_name": "000359_bdcc5c2d-b559-4207-958a-b35eb38596c7.jpg", "model_answer": "{课堂表现}with{双手托腮}with{画面后方的成年男性单手托举脸颊，无学习互动操作}", "ground_truth": "双手托腮"}
+{"id": 360, "image_name": "000360_8d1e8e2c-adfd-4605-b73c-7482c82ded6f.jpg", "model_answer": "{课堂表现}with{双手托腮}with{检测到后方男性单手掌持续托举脸颊，无学习互动操作}", "ground_truth": "双手托腮"}
+{"id": 361, "image_name": "000361_de47bba7-714f-4f4d-9635-990035ae4606.jpg", "model_answer": "{课堂表现}with{双手托腮}with{检测到画面后方人物单手托举脸颊，无学习互动操作}", "ground_truth": "双手托腮"}
+{"id": 362, "image_name": "000362_9e714d7f-05b4-4cf2-ae43-2692311d98bf.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 363, "image_name": "000363_fb3951ab-e2f7-422f-8eeb-3e9b365da7b7.jpg", "model_answer": "{课堂表现}with{双手托腮}with{检测到画面左侧成年男性单手托举脸颊，无学习互动操作}", "ground_truth": "双手托腮"}
+{"id": 364, "image_name": "000364_a43d471c-b599-4999-a724-4a608971bb51.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 365, "image_name": "000365_394c372c-30ec-4af2-a98b-1425844f4bdc.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 366, "image_name": "000366_4b49dc29-ae2b-48ad-8e6d-3c68efb8c5dd.jpg", "model_answer": "{课堂表现}with{仰头}with{检测到画面左上方的学生面部朝上，与画面水平方向夹角＞20度}", "ground_truth": "仰头"}
+{"id": 367, "image_name": "000367_48b03f26-b961-4eb9-8db8-1a815471c407.jpg", "model_answer": "{健康状态} with {打哈欠} with {检测到学生嘴巴张大≥1.5cm，眼部半闭合且面部肌肉拉伸}", "ground_truth": "无任何输出"}
+{"id": 368, "image_name": "000368_fd5d0a41-49e0-4ecf-b8de-e854246b2e83.jpg", "model_answer": "{课堂表现} with {双手托腮} with {检测到画面左侧人物单手托举脸颊，无学习互动操作}", "ground_truth": "双手托腮"}
+{"id": 369, "image_name": "000369_e8cc5814-765d-4221-864d-3c7d2c2b1411.jpg", "model_answer": "{健康状态} with {打哈欠} with {检测到穿红色外套的学生嘴巴张大≥1.5cm，眼部半闭合且面部肌肉拉伸}", "ground_truth": "双手托腮"}
+{"id": 370, "image_name": "000370_8e753040-b273-4175-a6d6-7381b0f3ba16.jpg", "model_answer": "{课堂表现}with{双手托腮}with{检测到穿蓝色外套的人单手托举脸颊，无学习互动操作}", "ground_truth": "双手托腮"}
+{"id": 371, "image_name": "000371_82611042-1fb6-496d-ab86-0a76f8cffe10.jpg", "model_answer": "{课堂表现} with {双手托腮} with {检测到穿蓝色外套的人员单手持续托举脸颊，无学习互动操作}", "ground_truth": "双手托腮"}
+{"id": 372, "image_name": "000372_d809f7e3-486d-474b-b288-b0de7c93f9a6.jpg", "model_answer": "{课堂表现} with {双手托腮} with {检测到穿蓝色外套的男性单手握拳托举脸颊，无学习互动操作}", "ground_truth": "双手托腮"}
+{"id": 373, "image_name": "000373_9832b19f-e677-4bee-8cbc-1b06f14b2154.jpg", "model_answer": "{课堂表现}with{双手托腮}with{检测到穿蓝色外套的人员单手托举脸颊，无学习互动操作}", "ground_truth": "双手托腮"}
+{"id": 374, "image_name": "000374_dfd564c6-7ffe-4dfd-86cd-7360e4f3c975.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 375, "image_name": "000375_2214892b-7743-4222-8140-a308a91fa51c.jpg", "model_answer": "{课堂表现}with{东张西望}with{检测到学生面部朝左，与画面中心线夹角≥25度}", "ground_truth": "东张西望"}
+{"id": 376, "image_name": "000376_1930d8a0-d96c-427d-a9d2-001c7012f01e.jpg", "model_answer": "{课堂表现} with {双手托腮} with {检测到画面左侧男子单手托举脸颊，无学习互动操作}", "ground_truth": "双手托腮"}
+{"id": 377, "image_name": "000377_c74133af-9075-4dc6-9cca-3ec6267906c5.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 378, "image_name": "000378_bd22bef7-b6fa-4f82-8a9a-b82413fe8d0f.jpg", "model_answer": "{课堂表现}with{摆弄电子设备}with{手部持有具备平板类形状特征的非学习机电子设备，无学习机课程互动操作}", "ground_truth": "摆弄电子设备"}
+{"id": 379, "image_name": "000379_f6555022-1585-4439-b055-829ac6121542.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 380, "image_name": "000380_2c1bfd59-e41f-4d2a-b617-e86487b99831.jpg", "model_answer": "{课堂表现}with{东张西望}with{检测到左侧学生面部朝右，与画面中心线夹角≥25度}", "ground_truth": "东张西望"}
+{"id": 381, "image_name": "000381_382b5651-a2d8-4789-b9b1-89b2805aa3b3.jpg", "model_answer": "{课堂表现}with{东张西望}with{检测到左侧学生面部朝右，与画面中心线夹角≥25度}", "ground_truth": "东张西望"}
+{"id": 382, "image_name": "000382_c2d5ec13-989f-4620-a2dc-208f3b75100a.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 383, "image_name": "000383_1e268c0f-6a5f-49dc-97b2-e47a754943f3.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 384, "image_name": "000384_633940b3-f87a-4dd5-a7bb-f1693af4026b.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 385, "image_name": "000385_252fe8bc-fe76-45fd-b5be-f10c1addd345.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 386, "image_name": "000386_9ee870cf-e172-46c4-8169-fbd71232e337.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 387, "image_name": "000387_d7e78334-1f3b-4193-968e-0ebe905184ce.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 388, "image_name": "000388_932bbee9-7cc0-456a-ad3d-b60878ca0ec6.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 389, "image_name": "000389_1aaa7b97-a300-428a-8f6f-bf8bcd3b8969.jpg", "model_answer": "{课堂表现}with{双手托腮}with{左侧学生单手托举脸颊，无学习互动操作}", "ground_truth": "双手托腮"}
+{"id": 390, "image_name": "000390_7a4cf0fc-56c5-4e4e-b7eb-b75eee8b72e1.jpg", "model_answer": "{课堂表现} with {双手托腮} with {检测到左侧学生用单手托举脸颊，无学习互动操作}", "ground_truth": "双手托腮"}
+{"id": 391, "image_name": "000391_206eca3e-a954-45bc-92e4-7afd77271e2e.jpg", "model_answer": "{课堂表现}with{双手托腮}with{左侧学生单手持续托举脸颊，无任何学习互动操作}", "ground_truth": "双手托腮"}
+{"id": 392, "image_name": "000392_1088cd1a-1ac9-440f-8542-5692e9f9f109.jpg", "model_answer": "{课堂表现}with{双手托腮}with{检测到左侧学生单手托举脸颊，无学习互动操作}", "ground_truth": "双手托腮"}
+{"id": 393, "image_name": "000393_a576ea70-5935-4a87-bdb5-480659bbc271.jpg", "model_answer": "{课堂表现} with {双手托腮} with {左侧学生单手持续托举脸颊，无任何学习互动操作}", "ground_truth": "双手托腮"}
+{"id": 394, "image_name": "000394_29ef64fa-338f-42b6-b144-f208bd22e25a.jpg", "model_answer": "{课堂表现}with{双手托腮}with{左侧学生单手托举脸颊，无学习互动操作}", "ground_truth": "双手托腮"}
+{"id": 395, "image_name": "000395_0b86be79-2780-4577-bec1-81878cbf8f27.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 396, "image_name": "000396_2890546b-2376-4dc5-88cd-dde2aea7be55.jpg", "model_answer": "课堂表现with双手托腮with检测到左侧学生单手持续托举下巴，无学习互动操作", "ground_truth": "课堂表现with双手托腮with检测到左侧学生单手持续托举下巴，无学习互动操作"}
+{"id": 397, "image_name": "000397_7bd2fa4c-6f56-49ed-919a-833b50795747.jpg", "model_answer": "{课堂表现}with{双手托腮}with{左侧学生用手指托举脸颊，无学习互动操作}", "ground_truth": "双手托腮"}
+{"id": 398, "image_name": "000398_bba69d58-20a2-477d-b55c-72356fc2ef75.jpg", "model_answer": "{课堂表现}with{双手托腮}with{左侧学生单手托举脸颊，无学习互动操作}", "ground_truth": "双手托腮"}
+{"id": 399, "image_name": "000399_33abc6d4-7eaa-42d4-be1f-9a47e6220a2b.jpg", "model_answer": "{课堂表现} with {双手托腮} with {检测到左侧学生双手托举脸颊，无学习互动操作}", "ground_truth": "双手托腮"}
+{"id": 400, "image_name": "000400_3ee9a33f-76db-422d-b6c5-382df04deacc.jpg", "model_answer": "{课堂表现} with {双手托腮} with {左侧学生单手握拳托举下巴，无学习互动操作}", "ground_truth": "双手托腮"}
+{"id": 401, "image_name": "000401_60325fec-f4f2-4765-853c-05d4ea68785a.jpg", "model_answer": "{课堂表现} with {双手托腮} with {左侧学生单手握拳托举脸颊，无学习互动操作}", "ground_truth": "双手托腮"}
+{"id": 402, "image_name": "000402_b85e3bf5-945c-4a59-9bcf-b223c4706780.jpg", "model_answer": "{课堂表现}with{双手托腮}with{左侧学生单手托举脸颊，无学习互动操作}", "ground_truth": "双手托腮"}
+{"id": 403, "image_name": "000403_59af5a32-c46e-4578-96f9-49e3dca68ebe.jpg", "model_answer": "{课堂表现} with {摆弄电子设备} with {左侧人物手部持有手机，无学习机课程互动操作}", "ground_truth": "摆弄电子设备"}
+{"id": 404, "image_name": "000404_c59dbaf9-6b42-497c-ade0-d26e2dbed95a.jpg", "model_answer": "{课堂表现}with{摆弄电子设备}with{左侧人物手部持有手机且屏幕发光，无学习机课程互动操作}", "ground_truth": "摆弄电子设备"}
+{"id": 405, "image_name": "000405_c4f86426-c6f5-4a5d-9c2f-18a7899893a1.jpg", "model_answer": "{课堂表现}with{摆弄电子设备}with{画面左侧人物手部持有手机，无学习机课程互动操作}", "ground_truth": "摆弄电子设备"}
+{"id": 406, "image_name": "000406_381845de-b244-40dc-9aad-156a8257ced6.jpg", "model_answer": "{课堂表现}with{摆弄电子设备}with{左侧人物手部持有手机且屏幕发光，无学习机课程互动操作}", "ground_truth": "摆弄电子设备"}
+{"id": 407, "image_name": "000407_b83a1a43-105c-4908-9901-03c696de4048.jpg", "model_answer": "{健康状态}with{揉眼睛}with{检测到左侧学生用手指接触眼部区域，有揉搓动作}", "ground_truth": "无任何输出"}
+{"id": 408, "image_name": "000408_eaeccda5-cd61-4007-8f66-658a754360bf.jpg", "model_answer": "{健康状态} with {揉眼睛} with {检测到学生双眼闭合，眼部有被揉搓的状态}\n{课堂表现} with {摆弄电子设备} with {画面左侧学生手部持有手机且屏幕发光，无学习机课程互动操作}", "ground_truth": "摆弄电子设备"}
+{"id": 409, "image_name": "000409_f3704e13-fced-4483-8ea4-4899a20ee286.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 410, "image_name": "000410_74efaeef-ceb2-47b4-80c2-a3e98b262a8c.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 411, "image_name": "000411_4d1b1f16-5150-4c01-9326-5a5e79070f12.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 412, "image_name": "000412_a38bec1a-4cfd-4270-989b-30aba8ae15fd.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 413, "image_name": "000413_a67b5c4d-bfef-4ef3-8977-eed604be5375.jpg", "model_answer": "{课堂表现}with{遮挡面部}with{画面左侧学生用手指遮挡眼部区域}", "ground_truth": "遮挡面部"}
+{"id": 414, "image_name": "000414_e971aa96-8537-4f42-9028-7c517f93c631.jpg", "model_answer": "{课堂表现}with{遮挡面部}with{左侧学生用手指遮挡眼部区域}", "ground_truth": "遮挡面部"}
+{"id": 415, "image_name": "000415_27b7999b-ba65-43fe-a3dd-1c726eea25b9.jpg", "model_answer": "{课堂表现}with{摆弄电子设备}with{画面左侧人物手部持有手机且屏幕可见，无学习机课程互动操作}", "ground_truth": "摆弄电子设备"}
+{"id": 416, "image_name": "000416_b0a2bc8b-4d3e-4426-ac96-a346afe13a66.jpg", "model_answer": "{课堂表现} with {双手托腮} with {检测到画面左侧人物单手托举脸颊，无学习互动操作}", "ground_truth": "双手托腮"}
+{"id": 417, "image_name": "000417_15143a10-c9d9-405c-b5f3-56344148a5fe.jpg", "model_answer": "{健康状态} with {揉眼睛} with {检测到学生双眼闭合，呈现揉眼睛的动作特征}", "ground_truth": "摆弄电子设备"}
+{"id": 418, "image_name": "000418_6ca7a3ca-53c1-499d-96e1-93a9b478646b.jpg", "model_answer": "{课堂表现} with {摆弄电子设备} with {画面左侧人物双手持有手机，无学习机课程互动操作}", "ground_truth": "摆弄电子设备"}
+{"id": 419, "image_name": "000419_05137e94-42cd-4245-be79-a374deed029b.jpg", "model_answer": "{课堂表现}with{双手托腮}with{检测到左侧学生单手持续托举脸颊，无任何学习互动操作}", "ground_truth": "双手托腮"}
+{"id": 420, "image_name": "000420_114ee0e7-0db5-4a0b-b32c-a5181702d882.jpg", "model_answer": "{课堂表现}with{遮挡面部}with{左侧学生用书本遮挡住部分面部}", "ground_truth": "无任何输出"}
+{"id": 421, "image_name": "000421_9697e9d3-e0ed-4c25-bad4-3defa741dc2f.jpg", "model_answer": "{课堂表现}with{摆弄电子设备}with{画面左侧人物手部持有手机且屏幕发光，无学习机课程互动操作}", "ground_truth": "摆弄电子设备"}
+{"id": 422, "image_name": "000422_967e1682-8fd7-485f-ae0d-c7ee31a65558.jpg", "model_answer": "{课堂表现}with{摆弄电子设备}with{画面左侧人物手部持有电子设备且有操作动作，无学习机课程互动操作}", "ground_truth": "摆弄电子设备"}
+{"id": 423, "image_name": "000423_b510ee46-c9dd-4b7d-a49a-d11852706e04.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 424, "image_name": "000424_c511320a-afde-4cf2-b5a6-48ce76abb511.jpg", "model_answer": "{课堂表现}with{东张西望}with{检测到画面左侧学生面部朝右，与画面中心线夹角≥25度}", "ground_truth": "无任何输出"}
+{"id": 425, "image_name": "000425_4f993bf5-ae78-444c-9b1f-89200e211387.jpg", "model_answer": "{课堂表现} with {东张西望} with {检测到左侧学生面部朝右，与画面中心线夹角≥25度}", "ground_truth": "无任何输出"}
+{"id": 426, "image_name": "000426_02941da7-b041-4491-bf5b-988c6fb5ef8d.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 427, "image_name": "000427_e9bdda03-cebe-4ed4-9a0e-8504ac6fb3cd.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 428, "image_name": "000428_fbbf704c-bc90-44f5-9c56-0d0530a5d127.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 429, "image_name": "000429_db572dfd-2d65-43e8-ab86-d44371a7fcf7.jpg", "model_answer": "{课堂表现} with {双手托腮} with {左侧学生单手托举脸颊，无任何学习互动操作}", "ground_truth": "双手托腮"}
+{"id": 430, "image_name": "000430_d6830657-a35b-4b00-a9b1-c678d467ad76.jpg", "model_answer": "{课堂表现}with{双手托腮}with{左侧学生单手托举脸颊，无学习互动操作}", "ground_truth": "双手托腮"}
+{"id": 431, "image_name": "000431_f1d0bde2-e0ad-4339-b598-c1ed5a143d32.jpg", "model_answer": "{课堂表现}with{双手托腮}with{左侧学生单手托举脸颊，无学习互动操作}", "ground_truth": "双手托腮"}
+{"id": 432, "image_name": "000432_e72fb4af-5dee-48da-9fa6-edc5163e017b.jpg", "model_answer": "{课堂表现}with{双手托腮}with{检测到左侧学生单手托举脸颊，无任何学习互动操作}", "ground_truth": "遮挡面部"}
+{"id": 433, "image_name": "000433_5d311917-3e94-4715-8871-3feb32e0e5f0.jpg", "model_answer": "{课堂表现}with{遮挡面部}with{左侧学生用手掌遮挡眼部区域}", "ground_truth": "遮挡面部"}
+{"id": 434, "image_name": "000434_fe109225-2f37-4eb8-8631-578f73dc3230.jpg", "model_answer": "{课堂表现} with {摆弄电子设备} with {左侧学生手部持有手机，无学习机课程互动操作}\n{课堂表现} with {双手托腮} with {左侧学生单手托举脸颊，无任何学习互动操作}", "ground_truth": "摆弄电子设备"}
+{"id": 435, "image_name": "000435_a5f3de56-29d3-4a58-aa86-67c909670fc8.jpg", "model_answer": "{课堂表现} with {双手托腮} with {画面左侧学生单手托举脸颊，无学习互动操作}", "ground_truth": "双手托腮"}
+{"id": 436, "image_name": "000436_05cdb6fe-2a83-41ba-af8f-33c906438cdb.jpg", "model_answer": "{课堂表现}with{双手托腮}with{检测到画面左侧学生单手托举脸颊，无学习互动操作}", "ground_truth": "双手托腮"}
+{"id": 437, "image_name": "000437_7ac4fca2-48aa-4c60-bbbd-3ecec113755f.jpg", "model_answer": "{课堂表现} with {双手托腮} with {检测到左侧学生单手托举脸颊，无学习互动操作}", "ground_truth": "双手托腮"}
+{"id": 438, "image_name": "000438_97f4cfab-48dd-4c25-a702-aa755fee0601.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 439, "image_name": "000439_6beb55d1-228d-43b0-9c5d-81962d1d7f62.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 440, "image_name": "000440_fc7233bf-b45c-4045-b2a0-ac86d8978f6c.jpg", "model_answer": "{课堂表现}with{摆弄玩具}with{左侧学生手部持有带有绿色玩偶的包，无书写等学习动作}", "ground_truth": "无任何输出"}
+{"id": 441, "image_name": "000441_611ec6c3-5e1f-4598-8a79-7e41c8ce6580.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 442, "image_name": "000442_92ad397e-4aea-4d3a-9f96-ad9d638d8e21.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 443, "image_name": "000443_e1c51811-ea6d-4ce4-b03d-9bc74d8d2621.jpg", "model_answer": "{课堂表现} with {东张西望} with {检测到学生面部朝右，与画面中心线夹角≥25度}", "ground_truth": "摆弄电子设备"}
+{"id": 444, "image_name": "000444_9ee8af9e-1750-4be6-bd10-0cea898715ff.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 445, "image_name": "000445_b2b9635c-d485-4f0b-b87f-28555c945f18.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 446, "image_name": "000446_516d1478-82bf-4f01-bd11-67cf49d94617.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 447, "image_name": "000447_a2bf3d75-51fc-4b5d-b0ad-8e43ac7f6395.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 448, "image_name": "000448_a640dbbf-b534-4d12-881e-4b7fd7013128.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 449, "image_name": "000449_bfb67bac-31af-4159-9385-18a24787f8ce.jpg", "model_answer": "{健康状态}with{揉眼睛}with{检测到学生眼部半闭合，有眼部区域接触的揉搓动作特征}", "ground_truth": "无任何输出"}
+{"id": 450, "image_name": "000450_159f4611-33ac-40ca-8c2f-77d9684a1922.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 451, "image_name": "000451_9553c44d-3f15-49c6-953e-fdf01cbde4d5.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 452, "image_name": "000452_54c81c55-5a23-4be1-9316-6dbc65f7bff9.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 453, "image_name": "000453_607accfa-ae60-4cc5-b99c-863eec455970.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 454, "image_name": "000454_adb5e60c-bc5c-440d-873c-2f5f88ce7438.jpg", "model_answer": "{课堂表现}with{遮挡面部}with{学生的刘海遮挡住眼部区域}", "ground_truth": "无任何输出"}
+{"id": 455, "image_name": "000455_11dff0b9-b20f-43e8-9ae8-ce6d60ec137c.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 456, "image_name": "000456_fdc96f0d-d652-41a0-8839-20f81c12dcd9.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 457, "image_name": "000457_35cdc032-6af3-47a7-8e65-844a4195188d.jpg", "model_answer": "{课堂表现}with{遮挡面部}with{检测到学生的刘海遮挡眼部区域}", "ground_truth": "无任何输出"}
+{"id": 458, "image_name": "000458_766372b4-f382-4850-a93c-5dd3eebe419b.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 459, "image_name": "000459_e3012bc2-5252-455b-a6cd-41f9aa9a7aff.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 460, "image_name": "000460_a728dadd-3c63-44c1-9f14-439f051aed5d.jpg", "model_answer": "{课堂表现}with{遮挡面部}with{学生的刘海遮挡眼部区域}", "ground_truth": "无任何输出"}
+{"id": 461, "image_name": "000461_4679d967-0eb1-4c29-8174-928cf3566f6e.jpg", "model_answer": "{课堂表现}with{遮挡面部}with{学生佩戴的眼镜框架遮挡住眼部区域}", "ground_truth": "无任何输出"}
+{"id": 462, "image_name": "000462_01acd828-1151-4d4e-889b-894e5c6558d0.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 463, "image_name": "000463_279c949a-0027-41d7-8706-59c597380e1d.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 464, "image_name": "000464_732c59bd-cb8b-43f9-9464-80b7f5caf272.jpg", "model_answer": "{健康状态}with{揉眼睛}with{检测到学生双眼闭合，眼部区域有被手指接触揉搓的状态}", "ground_truth": "无任何输出"}
+{"id": 465, "image_name": "000465_91ff241a-fdfd-4b2f-a870-179887cb3e9f.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 466, "image_name": "000466_d926b53e-ddb8-4fb7-ab02-c838fb26857f.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 467, "image_name": "000467_6e245eeb-590b-4aa7-b084-220f02dca437.jpg", "model_answer": "{课堂表现}with{遮挡面部}with{学生的刘海遮挡眼部区域}", "ground_truth": "无任何输出"}
+{"id": 468, "image_name": "000468_f7bffff9-c4c1-4d5e-9356-27cd1325a1f1.jpg", "model_answer": "{健康状态}with{揉眼睛}with{检测到学生双眼闭合，眼部被眼镜遮挡，有揉眼睛的动作特征}", "ground_truth": "无任何输出"}
+{"id": 469, "image_name": "000469_d37fa23c-e9ff-4c2b-a2ad-1a6a1079e232.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 470, "image_name": "000470_91cbb6c5-0d9f-4216-8db9-4b4d06494c91.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 471, "image_name": "000471_ceb16c6c-5739-4afa-aaeb-dcd24a90d438.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 472, "image_name": "000472_9d213b4b-a980-4663-a9ad-d698fc4b9cf4.jpg", "model_answer": "{课堂表现}with{遮挡面部}with{检测到学生的刘海遮挡眼部区域}", "ground_truth": "无任何输出"}
+{"id": 473, "image_name": "000473_3adc16dc-10c3-4ae9-be52-a4eabcd0d5ee.jpg", "model_answer": "{健康状态}with{揉眼睛}with{检测到学生眼部半闭合，有眼睛被触碰的视觉特征}", "ground_truth": "无任何输出"}
+{"id": 474, "image_name": "000474_1dc334ec-f2c7-417c-942b-33960f691e81.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 475, "image_name": "000475_f6d668fd-c646-45da-9185-2c006cbe8779.jpg", "model_answer": "{健康状态} with {揉眼睛} with {检测到学生双眼闭合，眼部有被揉搓的状态特征}", "ground_truth": "无任何输出"}
+{"id": 476, "image_name": "000476_3dec0305-f3cc-45b9-aef5-eac6c6d262a9.jpg", "model_answer": "无任何输出", "ground_truth": "仰头"}
+{"id": 477, "image_name": "000477_080308f5-03ba-4063-b6e4-02a9696d841a.jpg", "model_answer": "无任何输出", "ground_truth": "仰头"}
+{"id": 478, "image_name": "000478_8d2219e2-39dd-4dfd-9174-6670ff5812b5.jpg", "model_answer": "无任何输出", "ground_truth": "仰头"}
+{"id": 479, "image_name": "000479_8c39f06e-4425-45e9-b8d6-845cc7b0f126.jpg", "model_answer": "无任何输出", "ground_truth": "仰头"}
+{"id": 480, "image_name": "000480_0d883fc1-bea4-4b36-a89a-b1650fe35dc2.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 481, "image_name": "000481_e50a0cd9-27ef-4de4-914d-6d8cc9fe1798.jpg", "model_answer": "无任何输出", "ground_truth": "双手托腮"}
+{"id": 482, "image_name": "000482_1b314eef-7747-4ae7-9be7-2f7c1a93b3a7.jpg", "model_answer": "{课堂表现}with{遮挡面部}with{右侧学生用手掌遮挡面部区域}", "ground_truth": "遮挡面部"}
+{"id": 483, "image_name": "000483_cb92096c-a52c-4cd7-bda5-2b37b3796501.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 484, "image_name": "000484_c7572f2a-20da-42c5-a24d-70c79c735d58.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 485, "image_name": "000485_626c9bf1-a7dd-4b8a-9b26-7198d4b13a11.jpg", "model_answer": "课堂表现with东张西望with检测到学生面部朝左，与画面中心线夹角≥25度", "ground_truth": "课堂表现with东张西望with检测到学生面部朝左，与画面中心线夹角≥25度"}
+{"id": 486, "image_name": "000486_5323b84a-248b-48d9-a5dc-9ffdf2dc6d7a.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 487, "image_name": "000487_96f2e07c-bc21-4233-871a-8aa221da03da.jpg", "model_answer": "{课堂表现}with{遮挡面部}with{检测到学生的刘海遮挡眼部区域}", "ground_truth": "无任何输出"}
+{"id": 488, "image_name": "000488_bdf5e1b1-f02e-4845-9bd1-7e566482eabb.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 489, "image_name": "000489_b19c2738-918a-4ef7-a801-4936c1b48c57.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 490, "image_name": "000490_b58fb414-9a98-4fc0-abc8-84e79999d97c.jpg", "model_answer": "{健康状态} with {揉眼睛} with {检测到学生双眼闭合，眼部有被手指揉搓的动作特征}", "ground_truth": "无任何输出"}
+{"id": 491, "image_name": "000491_85f25200-f0e4-40e2-9bd3-0fcb11eb95c1.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 492, "image_name": "000492_fa1ec271-613a-4053-adcc-cb19453eab1b.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 493, "image_name": "000493_fe40e048-6fef-43cf-8524-161ba9049c79.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 494, "image_name": "000494_f71eed07-9e5d-463b-9d55-85a73b53f39b.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 495, "image_name": "000495_c8792d71-abd2-4af1-91d1-2742c80d1941.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 496, "image_name": "000496_b526fc2e-4292-43de-8f1a-da97ba488ef0.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 497, "image_name": "000497_e3554c42-f61d-4339-bf32-d6b5d20f0c98.jpg", "model_answer": "{健康状态} with {揉眼睛} with {检测到学生眼部半闭合，有手指接触眼部区域的揉搓动作}", "ground_truth": "无任何输出"}
+{"id": 498, "image_name": "000498_0b01fc1d-08a4-47fd-a96f-838e214f6b8c.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 499, "image_name": "000499_7c32d897-83a6-4f4a-ad67-1ef414193af4.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 500, "image_name": "000500_ac1a3ae9-63d7-4ccb-996a-4ec1afd3cffe.jpg", "model_answer": "无任何输出", "ground_truth": "仰头"}
+{"id": 501, "image_name": "000501_be7cf555-7100-4ed9-89ab-f83a30e56762.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 502, "image_name": "000502_e4f096aa-6d13-4308-9172-58f3d534be80.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 503, "image_name": "000503_b66d94b5-e5c9-47bf-9ba3-5cdc7845abef.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 504, "image_name": "000504_76c24287-052d-4a01-bc4f-c11c19637bd5.jpg", "model_answer": "{课堂表现}with{遮挡面部}with{检测到学生的刘海遮挡眼部区域}", "ground_truth": "无任何输出"}
+{"id": 505, "image_name": "000505_c1b9cedf-7203-45fd-b75e-8ee98eb24264.jpg", "model_answer": "{课堂表现}with{趴桌懈怠}with{检测到学生上半身伏于桌面，躯干弯曲夹角＞30°，无端坐、书写动作}", "ground_truth": "无任何输出"}
+{"id": 506, "image_name": "000506_086c0fa1-e88a-46c8-ace1-929573d71a2a.jpg", "model_answer": "{课堂表现}with{趴桌懈怠}with{检测到学生上半身伏于桌面，躯干弯曲夹角＞30°，无端坐、书写动作}", "ground_truth": "无任何输出"}
+{"id": 507, "image_name": "000507_bdb99064-ed8f-44cf-925c-10dd95b6e820.jpg", "model_answer": "{课堂表现}with{趴桌懈怠}with{检测到学生上半身伏于桌面，躯干弯曲夹角＞30°，无端坐、书写动作}", "ground_truth": "无任何输出"}
+{"id": 508, "image_name": "000508_430c47a6-deb1-4bec-881f-da76fc31cf4d.jpg", "model_answer": "{课堂表现}with{趴桌懈怠}with{检测到学生上半身伏于桌面，躯干弯曲夹角＞30°，无端坐、书写动作}", "ground_truth": "无任何输出"}
+{"id": 509, "image_name": "000509_c23cccf1-8b5c-4073-88e8-7d21d479ccb6.jpg", "model_answer": "{课堂表现} with {遮挡面部} with {学生的刘海遮挡眼部区域}", "ground_truth": "无任何输出"}
+{"id": 510, "image_name": "000510_2d529033-bb48-4eb3-aecc-64fb759a84e6.jpg", "model_answer": "{课堂表现}with{趴桌懈怠}with{检测到学生上半身伏于桌面，面部贴靠下方，躯干弯曲夹角＞30°，无端坐、书写动作}", "ground_truth": "摆弄电子设备"}
+{"id": 511, "image_name": "000511_a6cfeb72-2010-4310-b974-8501890816b6.jpg", "model_answer": "{课堂表现}with{遮挡面部}with{学生的刘海遮挡住眼部及部分面部}", "ground_truth": "摆弄电子设备"}
+{"id": 512, "image_name": "000512_73050a0b-616a-47f8-b72a-b202e06fde62.jpg", "model_answer": "{课堂表现}with{趴桌懈怠}with{检测到学生上半身伏于桌面，躯干弯曲夹角＞30°，无书写动作}", "ground_truth": "无任何输出"}
+{"id": 513, "image_name": "000513_5511ce37-f556-4b03-a18a-73c66a9f330d.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 514, "image_name": "000514_2733c1a0-2a85-4111-a9ef-fb7374a394b7.jpg", "model_answer": "{课堂表现}with{趴桌懈怠}with{检测到学生上半身伏于桌面，躯干弯曲夹角＞30°，无端坐、书写动作}", "ground_truth": "遮挡面部"}
+{"id": 515, "image_name": "000515_db322c15-fd9c-43fa-86c5-bf136cad4b33.jpg", "model_answer": "{课堂表现} with {趴桌懈怠} with {检测到学生上半身伏于桌面，躯干弯曲夹角＞30°，无书写动作}", "ground_truth": "无任何输出"}
+{"id": 516, "image_name": "000516_d520822f-c1e2-47ef-940a-8339f713f206.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 517, "image_name": "000517_cb561dd3-731f-44bf-b65f-b02b921a6eea.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 518, "image_name": "000518_a43437ee-06db-46a0-aa50-277d21fa8c1e.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 519, "image_name": "000519_62b6590e-530c-4b78-a678-5b32f511a526.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 520, "image_name": "000520_95d19cba-bb74-46a7-9257-99b2bb11d593.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 521, "image_name": "000521_b8ab32d6-a507-4e1a-9102-c88a791a5bbd.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 522, "image_name": "000522_dadfa319-4ba5-4f37-a108-5ac1514ae01a.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 523, "image_name": "000523_ad5da8ae-ac34-48c8-a95c-aaf65b8d5f82.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 524, "image_name": "000524_5ae1c22a-3b28-4b46-84f8-02aa548e69ee.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 525, "image_name": "000525_0e412f14-e7ef-47d3-a466-9f529daef3c5.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 526, "image_name": "000526_8451c8fb-2e58-493e-b76b-05555b8e6916.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 527, "image_name": "000527_9cd702cd-1aad-40b1-b13a-4c2aaac26001.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 528, "image_name": "000528_353cc249-ccf5-45ba-b333-693f3cdca83b.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 529, "image_name": "000529_ebe7761c-bc09-4d9c-b3b5-4aa12f2d9879.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 530, "image_name": "000530_9b23f15e-4162-49a5-8fe1-b5552d514827.jpg", "model_answer": "{健康状态}with{打哈欠}with{检测到学生嘴巴张大≥1.5cm，眼部半闭合且面部肌肉拉伸}", "ground_truth": "无任何输出"}
+{"id": 531, "image_name": "000531_9099c23a-9399-4d20-bb5e-32918abe7d43.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 532, "image_name": "000532_147faf90-bf60-4c30-8a90-28d3410c5f56.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 533, "image_name": "000533_ed0bc8bf-d5af-4302-9fab-761228b670cb.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 534, "image_name": "000534_e7cb4388-604b-4d16-9499-a89979aa27ff.jpg", "model_answer": "{健康状态} with {揉眼睛} with {检测到学生眼部半闭合，双眼处于揉搓后的状态}", "ground_truth": "无任何输出"}
+{"id": 535, "image_name": "000535_ff117bb6-0de9-4e60-bdd9-d1200211da35.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 536, "image_name": "000536_c3cd9e92-0512-4aee-a1b0-139695d65bf3.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 537, "image_name": "000537_d9ff4898-76dd-4b3b-98d3-c965fd9af13d.jpg", "model_answer": "{健康状态}with{打哈欠}with{检测到学生嘴巴张大≥1.5cm，眼部半闭合且面部肌肉拉伸}", "ground_truth": "无任何输出"}
+{"id": 538, "image_name": "000538_4426c519-dc64-4ecd-91ed-b60a34addb7f.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 539, "image_name": "000539_19f891ac-f271-4a23-a6a3-bfe2cfcc75c2.jpg", "model_answer": "{健康状态} with {打哈欠} with {检测到学生嘴巴张大≥1.5cm，眼部半闭合且面部肌肉拉伸}", "ground_truth": "东张西望"}
+{"id": 540, "image_name": "000540_72f1bdad-908e-4dfc-844b-a6f8d4038dbe.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 541, "image_name": "000541_b992decd-666d-48fa-aa4c-015ac535c364.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 542, "image_name": "000542_a14bec44-f953-42a0-9dd9-219713ccd074.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 543, "image_name": "000543_5cc26c80-42c2-4e9c-8168-5a0c92594e46.jpg", "model_answer": "{健康状态}with{揉眼睛}with{检测到学生双眼闭合，眼部区域有接触揉搓的动作特征}", "ground_truth": "无任何输出"}
+{"id": 544, "image_name": "000544_bb74c8c6-d91c-4150-af10-a6a1b5f2ea30.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 545, "image_name": "000545_e4116c4f-de24-4974-8763-35985ffc6404.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 546, "image_name": "000546_779487f0-3d7f-4958-af7a-1e9ee4ae42b6.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 547, "image_name": "000547_fb1badca-476f-4a0d-9982-d2c6ee20382b.jpg", "model_answer": "{健康状态} with {打哈欠} with {检测到学生嘴巴张大≥1.5cm，眼部半闭合且面部肌肉拉伸}", "ground_truth": "无任何输出"}
+{"id": 548, "image_name": "000548_ebdf9ef6-0d9b-48a3-9cc5-344d2766e596.jpg", "model_answer": "{健康状态} with {打哈欠} with {检测到学生嘴巴张大≥1.5cm，眼部半闭合且面部肌肉拉伸}", "ground_truth": "无任何输出"}
+{"id": 549, "image_name": "000549_a149d508-5ed2-4b89-996c-eaa3938683b9.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 550, "image_name": "000550_4e2a1a11-fc54-4cc1-9e3c-71b45e1fa089.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 551, "image_name": "000551_184818b3-1307-4a57-a9c5-4b158631add1.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 552, "image_name": "000552_6772c11c-1dd4-45fa-87ab-a80b0591360e.jpg", "model_answer": "{健康状态} with {打哈欠} with {检测到学生嘴巴张大≥1.5cm，眼部半闭合且面部肌肉拉伸}", "ground_truth": "无任何输出"}
+{"id": 553, "image_name": "000553_f068a823-17da-43e7-a1eb-4508218b4be7.jpg", "model_answer": "{课堂表现}with{东张西望}with{检测到学生面部朝左，与画面中心线夹角≥25度}", "ground_truth": "无任何输出"}
+{"id": 554, "image_name": "000554_e3ebd496-bf7f-493d-8e1e-ccf379d0aa9b.jpg", "model_answer": "{健康状态} with {打哈欠} with {检测到学生嘴巴张大≥1.5cm，眼部半闭合且面部肌肉拉伸}", "ground_truth": "无任何输出"}
+{"id": 555, "image_name": "000555_ed5e21c8-a902-42b7-9062-818662321121.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 556, "image_name": "000556_fe7dfdd6-8bf6-463e-b462-45da07248afb.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 557, "image_name": "000557_ef70387f-1af4-41a9-870e-bf05e64ba299.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 558, "image_name": "000558_598f055d-9aa0-4fcc-814f-511469577073.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 559, "image_name": "000559_675be851-82d8-4e71-9834-a5d9c3098493.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 560, "image_name": "000560_49555713-b460-45cf-9a49-8babf81f4aa2.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 561, "image_name": "000561_6343d5d3-b194-46a2-968e-ffab12f16009.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 562, "image_name": "000562_09258045-dc45-47db-9908-a7582fc7bddc.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 563, "image_name": "000563_e52b2593-5985-4634-8084-f71b6d0017cb.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 564, "image_name": "000564_6f8aae6e-31aa-4925-9873-4caa1b7f804f.jpg", "model_answer": "{课堂表现}with{东张西望}with{检测到学生面部朝左上方，与画面中心线夹角≥25度}", "ground_truth": "东张西望"}
+{"id": 565, "image_name": "000565_9522e183-9fc1-45bd-b8a1-fb7c31503d29.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 566, "image_name": "000566_f783eec0-263a-4c39-ad24-1bb655d71125.jpg", "model_answer": "{课堂表现}with{双手托腮}with{学生单手托举脸颊，无任何学习互动操作}", "ground_truth": "双手托腮"}
+{"id": 567, "image_name": "000567_0442ac0f-fb6c-4fe9-9d9e-f37b9673502b.jpg", "model_answer": "{健康状态} with {打哈欠} with {检测到学生嘴巴张大≥1.5cm，眼部半闭合且面部肌肉拉伸}", "ground_truth": "无任何输出"}
+{"id": 568, "image_name": "000568_b3138063-b8fc-4ce0-93ec-ea8a96be771b.jpg", "model_answer": "{健康状态} with {打哈欠} with {检测到学生嘴巴张大≥1.5cm，眼部半闭合且面部肌肉拉伸}", "ground_truth": "无任何输出"}
+{"id": 569, "image_name": "000569_50f5e8f5-367b-4dca-88b2-3406dd4a3d81.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 570, "image_name": "000570_76aaab3a-7efc-433a-aadb-df3103639994.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 571, "image_name": "000571_ef0f414e-1ab0-41b9-be61-3660a3a9be0f.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 572, "image_name": "000572_89e2838c-ed56-4bee-b0c4-99960b9ac33a.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 573, "image_name": "000573_0aea1f53-84d7-427c-aa0e-83d4d0f0686b.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 574, "image_name": "000574_9c6a95fe-e19b-4027-b933-0bcdbe143d27.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 575, "image_name": "000575_d8721d25-eaa2-4062-bf1e-36e3c27d077f.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 576, "image_name": "000576_025c2d70-8784-41d1-b821-9862c8961826.jpg", "model_answer": "{课堂表现} with {东张西望} with {检测到学生面部朝右，与画面中心线夹角≥25度}", "ground_truth": "无任何输出"}
+{"id": 577, "image_name": "000577_196d0bcd-eb9d-4157-8642-6abf98f43b86.jpg", "model_answer": "{课堂表现}with{趴桌懈怠}with{检测到学生上半身伏于身体前方，躯干弯曲夹角＞30°，无端坐、书写动作}", "ground_truth": "无任何输出"}
+{"id": 578, "image_name": "000578_0e12e2ec-9fc6-4038-bee4-899de20adce7.jpg", "model_answer": "{课堂表现} with {趴桌懈怠} with {检测到学生上半身伏于下方，面部向下贴靠，躯干弯曲夹角＞30°，无端坐、书写动作}", "ground_truth": "无任何输出"}
+{"id": 579, "image_name": "000579_cec28bd0-4a19-4bee-99b6-7966498de576.jpg", "model_answer": "{课堂表现} with {遮挡面部} with {检测到一只手在学生面部前方，遮挡部分面部区域}", "ground_truth": "无任何输出"}
+{"id": 580, "image_name": "000580_de09147b-1e94-4a9e-9675-601f02f68e11.jpg", "model_answer": "{课堂表现}with{完全离席}with{检测到画面内无完整的人物身体特征及清晰面部有效特征，学生身体大部分脱离学习区域}", "ground_truth": "无任何输出"}
+{"id": 581, "image_name": "000581_a550a128-5371-4ab9-ac2a-aa257d7a7467.jpg", "model_answer": "{课堂表现} with {完全离席} with {检测到画面内无人物身体特征及面部有效特征}", "ground_truth": "完全离席"}
+{"id": 582, "image_name": "000582_95dcccfa-3d6a-4ca2-8b7f-089bcc7c6e92.jpg", "model_answer": "{课堂表现}with{东张西望}with{检测到学生面部朝左，与画面中心线夹角≥25度}", "ground_truth": "东张西望"}
+{"id": 583, "image_name": "000583_70b039d3-057a-4f4c-a656-de6a5a080477.jpg", "model_answer": "{课堂表现}with{完全离席}with{检测到画面内无人物身体特征及面部有效特征}", "ground_truth": "完全离席"}
+{"id": 584, "image_name": "000584_2172f82c-f9f1-47b5-a0ba-9e087a5ad038.jpg", "model_answer": "{课堂表现}with{完全离席}with{检测到画面内无人物身体特征及面部有效特征}", "ground_truth": "完全离席"}
+{"id": 585, "image_name": "000585_b5d6f7dd-802b-4caf-92b1-5cd7d2dbe05f.jpg", "model_answer": "{课堂表现} with {东张西望} with {检测到学生面部朝左，与画面中心线夹角≥25度}", "ground_truth": "东张西望"}
+{"id": 586, "image_name": "000586_710ebf97-9063-4276-b7aa-dd90f5fba63f.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 587, "image_name": "000587_e10e070a-1f0a-4589-97b7-f10d36b50cd1.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 588, "image_name": "000588_898142ca-95a1-48ec-a050-fa9537880621.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 589, "image_name": "000589_15a52052-9406-4c56-956d-a6818eb7faa8.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 590, "image_name": "000590_8135731e-3696-478f-b836-9724a7ac80a9.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 591, "image_name": "000591_d4df6a36-5262-46e0-b2a8-8c72391fa7ba.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 592, "image_name": "000592_9d65571d-90df-406f-a9d4-9d486303bc6c.jpg", "model_answer": "{课堂表现}with{东张西望}with{检测到学生面部朝左，与画面中心线夹角≥25度}", "ground_truth": "东张西望"}
+{"id": 593, "image_name": "000593_8e0edcd6-1b61-491b-9aff-d3fb28f808a6.jpg", "model_answer": "{课堂表现} with {东张西望} with {检测到学生面部朝右，与画面中心线夹角≥25度}", "ground_truth": "东张西望"}
+{"id": 594, "image_name": "000594_9e091fb7-bbe2-4e30-9011-549a4b19b10d.jpg", "model_answer": "{课堂表现} with {遮挡面部} with {检测到手机被举到学生面部前方，遮挡住学生的眼/面部}", "ground_truth": "摆弄电子设备"}
+{"id": 595, "image_name": "000595_09cec1c4-b56d-4bc2-b6db-c54af883ba90.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
+{"id": 596, "image_name": "000596_b6981006-7d83-4b0f-8edd-93453f5cf29b.jpg", "model_answer": "{课堂表现} with {东张西望} with {检测到学生面部朝左，与画面中心线夹角≥25度}", "ground_truth": "东张西望"}
+{"id": 597, "image_name": "000597_cbdb6eb0-a43a-480e-a1cf-1465ac979b04.jpg", "model_answer": "{课堂表现}with{完全离席}with{检测到画面内无学生的面部有效特征，学生身体离开座位，处于离席状态}", "ground_truth": "无任何输出"}
+{"id": 598, "image_name": "000598_ca8ac9cc-cb41-4f9c-9456-08827ccb943a.jpg", "model_answer": "{课堂表现}with{完全离席}with{检测到画面内无人物身体特征及面部有效特征}", "ground_truth": "完全离席"}
+{"id": 599, "image_name": "000599_550a683a-884f-4c62-b952-251a840fc595.jpg", "model_answer": "{课堂表现}with{完全离席}with{检测到画面内无人物身体特征及面部有效特征}", "ground_truth": "完全离席"}
+{"id": 600, "image_name": "000600_cd78bba7-d7a7-4c00-85fb-ac49afd42471.jpg", "model_answer": "{课堂表现} with {完全离席} with {检测到画面内无人物身体特征及面部有效特征}", "ground_truth": "完全离席"}
+{"id": 601, "image_name": "000601_fd616a3d-9ba2-4965-a414-d051a19af0e4.jpg", "model_answer": "{课堂表现} with {完全离席} with {检测到画面内无人物身体特征及面部有效特征}", "ground_truth": "完全离席"}
+{"id": 602, "image_name": "000602_73a80291-a12b-4418-bc1f-102dcc050853.jpg", "model_answer": "{课堂表现}with{完全离席}with{检测到画面内无人物身体特征及面部有效特征}", "ground_truth": "完全离席"}
+{"id": 603, "image_name": "000603_d6a59792-bfd5-46ef-8906-30f898f7f561.jpg", "model_answer": "{课堂表现}with{完全离席}with{检测到画面内无人物身体特征及面部有效特征}", "ground_truth": "完全离席"}
+{"id": 604, "image_name": "000604_059e6913-820d-4b1f-a8ca-9524042cd621.jpg", "model_answer": "{课堂表现}with{完全离席}with{检测到画面内无人物身体特征及面部有效特征}", "ground_truth": "完全离席"}
+{"id": 605, "image_name": "000605_38634394-eb0a-4403-b560-dd88d6bc456f.jpg", "model_answer": "{课堂表现}with{完全离席}with{检测到画面内无人物身体特征及面部有效特征}", "ground_truth": "完全离席"}
+{"id": 606, "image_name": "000606_b9394e35-9c23-43ab-837a-d6c578d024e2.jpg", "model_answer": "{课堂表现} with {完全离席} with {检测到画面内无人物身体特征及面部有效特征}", "ground_truth": "完全离席"}
+{"id": 607, "image_name": "000607_9afe3f66-5a4b-4dda-9e2f-c489e078e99f.jpg", "model_answer": "{课堂表现} with {完全离席} with {检测到画面内无人物身体特征及面部有效特征}", "ground_truth": "完全离席"}
+{"id": 608, "image_name": "000608_dd92fbda-5de2-4f6f-9bb3-f50909f902ab.jpg", "model_answer": "{课堂表现} with {完全离席} with {检测到画面内无人物身体特征及面部有效特征}", "ground_truth": "完全离席"}
+{"id": 609, "image_name": "000609_470e795a-b3c2-453e-b03d-7c7708e5224e.jpg", "model_answer": "{课堂表现}with{完全离席}with{检测到画面内无人物身体特征及面部有效特征}", "ground_truth": "完全离席"}
+{"id": 610, "image_name": "000610_6477303e-8bfe-4e83-82e5-8b50e03e1361.jpg", "model_answer": "{课堂表现} with {完全离席} with {检测到画面内无人物身体特征及面部有效特征}", "ground_truth": "完全离席"}
+{"id": 611, "image_name": "000611_b9761b29-9f42-443a-b3e3-207cf0dab7bd.jpg", "model_answer": "{课堂表现} with {完全离席} with {检测到画面内无人物身体特征及面部有效特征}", "ground_truth": "完全离席"}
+{"id": 612, "image_name": "000612_033e66d8-28f7-4b58-9f44-495353b6685c.jpg", "model_answer": "{课堂表现} with {完全离席} with {检测到画面内无人物身体特征及面部有效特征}", "ground_truth": "完全离席"}
+{"id": 613, "image_name": "000613_d65e0eed-8030-4167-8386-452fe1008da0.jpg", "model_answer": "{课堂表现} with {完全离席} with {检测到画面内无人物身体特征及面部有效特征}", "ground_truth": "完全离席"}
+{"id": 614, "image_name": "000614_1aba0165-99b0-47de-9fe8-76de5a44f9d7.jpg", "model_answer": "{课堂表现} with {完全离席} with {检测到画面内无人物身体特征及面部有效特征}", "ground_truth": "完全离席"}
+{"id": 615, "image_name": "000615_5b01d933-c68a-4b63-95c5-849506f3d4e9.jpg", "model_answer": "{课堂表现}with{完全离席}with{检测到画面内无学生的身体特征及面部有效特征，呈现的是一名成年女性}", "ground_truth": "无任何输出"}
+{"id": 616, "image_name": "000616_0f5b502e-148c-4908-b066-6af57ad84619.jpg", "model_answer": "{课堂表现}with{完全离席}with{检测到画面内无处于学习座位的学生，学生在画面右侧靠近门的位置，未在学习区域就座}", "ground_truth": "东张西望"}
+{"id": 617, "image_name": "000617_0ec9fb06-dfb1-4dc8-89da-ab362cbcf8e4.jpg", "model_answer": "{课堂表现}with{完全离席}with{检测到画面内无人物身体特征及面部有效特征}", "ground_truth": "完全离席"}
+{"id": 618, "image_name": "000618_be8df320-b8c3-4778-9b45-2f247d27b2fa.jpg", "model_answer": "{课堂表现}with{完全离席}with{检测到画面内无正在听课的学生身体特征及面部有效特征，仅出现非听课的成年人物}", "ground_truth": "无任何输出"}
+{"id": 619, "image_name": "000619_d5b925ac-dff6-4259-a98a-1e913f23f65f.jpg", "model_answer": "{课堂表现}with{完全离席}with{检测到画面内无人物身体特征及面部有效特征}", "ground_truth": "完全离席"}
+{"id": 620, "image_name": "000620_a454e667-8836-422a-b3a4-d2314df9cea3.jpg", "model_answer": "{课堂表现}with{完全离席}with{检测到画面内无人物身体特征及面部有效特征}", "ground_truth": "完全离席"}
+{"id": 621, "image_name": "000621_8919f830-928e-4978-9fee-d2b056f367b0.jpg", "model_answer": "{课堂表现} with {完全离席} with {检测到画面内无人物身体特征及面部有效特征}", "ground_truth": "完全离席"}
+{"id": 622, "image_name": "000622_969a764a-016f-42a5-a3b3-486338129fc5.jpg", "model_answer": "{课堂表现} with {完全离席} with {检测到画面内无人物身体特征及面部有效特征}", "ground_truth": "完全离席"}
+{"id": 623, "image_name": "000623_2ea8fbdd-9cd9-4d13-b260-5a8948921802.jpg", "model_answer": "{课堂表现} with {完全离席} with {检测到画面内无人物身体特征及面部有效特征}", "ground_truth": "完全离席"}
+{"id": 624, "image_name": "000624_895afa99-1675-469b-b7cd-798694f00db3.jpg", "model_answer": "无任何输出", "ground_truth": "无任何输出"}
